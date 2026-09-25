@@ -1,1336 +1,4331 @@
 {
   "version": 1,
-  "updated_at": "2026-08-30T11:00:11Z",
+  "updated_at": "2026-09-25T08:54:53Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
-    "generator": "hermes estate full-openrouter catalog",
+    "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
+    "generator": "JorisJonkers-dev openrouter-model-catalog",
     "comment": "Complete list of OpenRouter models that advertise tool calling. Exposes every usable model to the Hermes picker instead of the upstream curated subset."
   },
   "providers": {
     "openrouter": {
       "metadata": {
-        "scope": "full"
+        "scope": "full",
+        "count": 392
       },
       "models": [
         {
-          "id": "aion-labs/aion-2.0",
-          "description": ""
-        },
-        {
-          "id": "aion-labs/aion-3.0",
-          "description": ""
-        },
-        {
-          "id": "aion-labs/aion-3.0-mini",
-          "description": ""
-        },
-        {
-          "id": "amazon/nova-2-lite-v1",
-          "description": ""
-        },
-        {
-          "id": "amazon/nova-lite-v1",
-          "description": ""
-        },
-        {
-          "id": "amazon/nova-micro-v1",
-          "description": ""
-        },
-        {
-          "id": "amazon/nova-premier-v1",
-          "description": ""
-        },
-        {
-          "id": "amazon/nova-pro-v1",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-3-haiku",
-          "description": ""
+          "id": "anthropic/claude-fable-5.1",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Fable 5.1",
+            "context_length": 1000000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": true
+          }
         },
         {
           "id": "anthropic/claude-fable-5",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Fable 5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "anthropic/claude-fable-5:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-haiku-4.5",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-haiku-4.5:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.1",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.1:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.5",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.5:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.6",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.6:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.7",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.7-fast",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.7:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.8",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.8-fast",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-4.8:batch",
-          "description": ""
+          "id": "anthropic/claude-opus-5.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 5.5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
+            "curated_upstream": true
+          }
         },
         {
           "id": "anthropic/claude-opus-5",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "anthropic/claude-opus-5-fast",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-opus-5:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-4",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-4.5",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-4.5:batch",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-4.6",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-4.6:batch",
-          "description": ""
+          "id": "anthropic/claude-opus-4.8",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.8",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": true
+          }
         },
         {
           "id": "anthropic/claude-sonnet-5",
-          "description": ""
-        },
-        {
-          "id": "anthropic/claude-sonnet-5:batch",
-          "description": ""
-        },
-        {
-          "id": "arcee-ai/trinity-large-thinking",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-1.6",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-1.6-flash",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-2-1-turbo",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-2.0-code",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-2.0-lite",
-          "description": ""
-        },
-        {
-          "id": "bytedance-seed/seed-2.0-mini",
-          "description": ""
-        },
-        {
-          "id": "cohere/command-r-08-2024",
-          "description": ""
-        },
-        {
-          "id": "cohere/command-r-plus-08-2024",
-          "description": ""
-        },
-        {
-          "id": "cohere/north-mini-code:free",
-          "description": "free"
-        },
-        {
-          "id": "deepseek/deepseek-chat",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-chat-v3-0324",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-chat-v3.1",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-r1",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-r1-0528",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v3.1-terminus",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v3.2",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v3.2-exp",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-flash",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-flash-0731",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-flash-0731:batch",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-flash-vision-exp",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-pro",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-pro-0813",
-          "description": ""
-        },
-        {
-          "id": "deepseek/deepseek-v4-pro-0813:batch",
-          "description": ""
-        },
-        {
-          "id": "dots-studio/dots-3-note-preview:free",
-          "description": "free"
-        },
-        {
-          "id": "google/gemini-2.5-flash",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-flash-lite",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-flash-lite:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-flash:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-pro",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-pro-preview",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-pro-preview-05-06",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-2.5-pro:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3-flash-preview",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3-flash-preview:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3-pro-image",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-flash-lite",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-flash-lite-preview",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-flash-lite:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-pro-preview",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-pro-preview-customtools",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.1-pro-preview:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.5-flash",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.5-flash-lite",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.5-flash-lite:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.5-flash:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.6-flash",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.6-flash:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.7-flash",
-          "description": ""
-        },
-        {
-          "id": "google/gemini-3.7-flash:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-3-12b-it",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-3-27b-it",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-4-26b-a4b-it",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-4-26b-a4b-it:free",
-          "description": "free"
-        },
-        {
-          "id": "google/gemma-4-31b-it",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-4-31b-it:batch",
-          "description": ""
-        },
-        {
-          "id": "google/gemma-4-31b-it:free",
-          "description": "free"
-        },
-        {
-          "id": "ibm-granite/granite-4.1-8b",
-          "description": ""
-        },
-        {
-          "id": "inception/mercury-2",
-          "description": ""
-        },
-        {
-          "id": "inclusionai/ling-3.0-flash",
-          "description": ""
-        },
-        {
-          "id": "inclusionai/ling-3.0-flash-fin:free",
-          "description": "free"
-        },
-        {
-          "id": "kwaipilot/kat-coder-air-v2.5",
-          "description": ""
-        },
-        {
-          "id": "kwaipilot/kat-coder-pro-v2",
-          "description": ""
-        },
-        {
-          "id": "kwaipilot/kat-coder-pro-v2.5",
-          "description": ""
-        },
-        {
-          "id": "liquid/lfm-2.5-2.6b:free",
-          "description": "free"
-        },
-        {
-          "id": "meituan/longcat-2.0",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/llama-3.1-70b-instruct",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/llama-3.1-8b-instruct",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/llama-3.3-70b-instruct",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/llama-4-maverick",
-          "description": ""
-        },
-        {
-          "id": "meta-llama/llama-4-scout",
-          "description": ""
-        },
-        {
-          "id": "meta/muse-glimmer-30b",
-          "description": ""
-        },
-        {
-          "id": "meta/muse-glimmer-30b:batch",
-          "description": ""
-        },
-        {
-          "id": "meta/muse-spark-1.1",
-          "description": ""
-        },
-        {
-          "id": "meta/muse-spark-1.2",
-          "description": ""
-        },
-        {
-          "id": "meta/muse-spark-1.2-contributor",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m1",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m2",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m2.1",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m2.5",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m2.7",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m2.7:free",
-          "description": "free"
-        },
-        {
-          "id": "minimax/minimax-m3",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m3:batch",
-          "description": ""
-        },
-        {
-          "id": "minimax/minimax-m3:free",
-          "description": "free"
-        },
-        {
-          "id": "mistralai/codestral-2508",
-          "description": ""
-        },
-        {
-          "id": "mistralai/codestral-2508:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/devstral-2512",
-          "description": ""
-        },
-        {
-          "id": "mistralai/ministral-14b-2512",
-          "description": ""
-        },
-        {
-          "id": "mistralai/ministral-3b-2512",
-          "description": ""
-        },
-        {
-          "id": "mistralai/ministral-8b-2512",
-          "description": ""
-        },
-        {
-          "id": "mistralai/ministral-8b-2512:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-large",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-large-2407",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-large-2512",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-large-2512:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-medium-3",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-medium-3-5",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-medium-3-5:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-medium-3.1",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-medium-3.1:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-nemo",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-saba",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-small-2603",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-small-2603:batch",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mistral-small-3.2-24b-instruct",
-          "description": ""
-        },
-        {
-          "id": "mistralai/mixtral-8x22b-instruct",
-          "description": ""
-        },
-        {
-          "id": "mistralai/voxtral-small-24b-2507",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2-0905",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2-thinking",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2.5",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2.6",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k2.7-code",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k3",
-          "description": ""
-        },
-        {
-          "id": "moonshotai/kimi-k3:batch",
-          "description": ""
-        },
-        {
-          "id": "nex-agi/nex-n2-mini",
-          "description": ""
-        },
-        {
-          "id": "nex-agi/nex-n2-pro",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3-nano-30b-a3b",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-          "description": "free"
-        },
-        {
-          "id": "nvidia/nemotron-3-super-120b-a12b",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3-super-120b-a12b:free",
-          "description": "free"
-        },
-        {
-          "id": "nvidia/nemotron-3-ultra-550b-a55b",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
-          "description": "free"
-        },
-        {
-          "id": "nvidia/nemotron-3.5-lightning",
-          "description": ""
-        },
-        {
-          "id": "nvidia/nemotron-3.5-lightning:free",
-          "description": "free"
-        },
-        {
-          "id": "openai/gpt-3.5-turbo",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-3.5-turbo-0613",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-3.5-turbo-16k",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4-turbo",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4-turbo-preview",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4.1",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4.1-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4.1-nano",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o-2024-05-13",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o-2024-08-06",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o-2024-11-20",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-4o-mini-2024-07-18",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5-nano",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.1",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.1-codex",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.1-codex-max",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.1-codex-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.2",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.2-chat",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.2-codex",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.2-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.3-codex",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.4",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.4-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.4-nano",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.4-pro",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "anthropic/claude-haiku-4.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Haiku 4.5",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-astra",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Astra",
+            "context_length": 1050000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-astra-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Astra Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-sol",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Sol",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-sol-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Sol Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-luna",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Luna",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.5,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6-luna-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Luna Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.5,
+            "curated_upstream": true
+          }
         },
         {
           "id": "openai/gpt-5.5",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.5",
+            "context_length": 1050000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 30.0,
+            "curated_upstream": true
+          }
         },
         {
           "id": "openai/gpt-5.5-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-luna",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-luna-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-sol",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-sol-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-terra",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-5.6-terra-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-audio",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-audio-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-chat-latest",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-oss-120b:batch",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-oss-20b",
-          "description": ""
-        },
-        {
-          "id": "openai/gpt-oss-safeguard-20b",
-          "description": ""
-        },
-        {
-          "id": "openai/o1",
-          "description": ""
-        },
-        {
-          "id": "openai/o3",
-          "description": ""
-        },
-        {
-          "id": "openai/o3-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/o3-mini-high",
-          "description": ""
-        },
-        {
-          "id": "openai/o3-pro",
-          "description": ""
-        },
-        {
-          "id": "openai/o4-mini",
-          "description": ""
-        },
-        {
-          "id": "openai/o4-mini-high",
-          "description": ""
-        },
-        {
-          "id": "openrouter/auto",
-          "description": ""
-        },
-        {
-          "id": "openrouter/auto-beta",
-          "description": ""
-        },
-        {
-          "id": "openrouter/free",
-          "description": "free"
-        },
-        {
-          "id": "poolside/laguna-s-2.1",
-          "description": ""
-        },
-        {
-          "id": "poolside/laguna-s-2.1:free",
-          "description": "free"
-        },
-        {
-          "id": "poolside/laguna-xs-2.1",
-          "description": ""
-        },
-        {
-          "id": "poolside/laguna-xs-2.1:free",
-          "description": "free"
-        },
-        {
-          "id": "qwen/qwen-2.5-72b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen-2.5-7b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen-plus",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen-plus-2025-07-28",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-14b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-235b-a22b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-235b-a22b-2507",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-235b-a22b-thinking-2507",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-30b-a3b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-30b-a3b-instruct-2507",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-30b-a3b-thinking-2507",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-32b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-8b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-coder",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-coder-30b-a3b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-coder-flash",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-coder-next",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-coder-plus",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-max",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-max-thinking",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-next-80b-a3b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-next-80b-a3b-thinking",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-235b-a22b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-235b-a22b-thinking",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-30b-a3b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-30b-a3b-thinking",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-32b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-8b-instruct",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3-vl-8b-thinking",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-122b-a10b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-27b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-35b-a3b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-397b-a17b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-9b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-9b:batch",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-flash-02-23",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-plus-02-15",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.5-plus-20260420",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.6-27b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.6-35b-a3b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.6-flash",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.6-max-preview",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.6-plus",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.7-flash",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.7-max",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.7-plus",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.8-2.4t-a95b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.8-2.4t-a95b:batch",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.8-27b",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.8-flash",
-          "description": ""
-        },
-        {
-          "id": "qwen/qwen3.8-max",
-          "description": ""
-        },
-        {
-          "id": "rekaai/reka-edge",
-          "description": ""
-        },
-        {
-          "id": "relace/relace-search",
-          "description": ""
-        },
-        {
-          "id": "sakana/fugu-ultra",
-          "description": ""
-        },
-        {
-          "id": "sakana/sakana-namazu",
-          "description": ""
-        },
-        {
-          "id": "sao10k/l3.1-euryale-70b",
-          "description": ""
-        },
-        {
-          "id": "stepfun/step-3.5-flash",
-          "description": ""
-        },
-        {
-          "id": "stepfun/step-3.7-flash",
-          "description": ""
-        },
-        {
-          "id": "tencent/hy3",
-          "description": ""
-        },
-        {
-          "id": "tencent/hy3-preview",
-          "description": ""
-        },
-        {
-          "id": "tencent/hy4-preview",
-          "description": ""
-        },
-        {
-          "id": "thedrummer/unslopnemo-12b",
-          "description": ""
-        },
-        {
-          "id": "thinkingmachines/inkling",
-          "description": ""
-        },
-        {
-          "id": "thinkingmachines/inkling-small",
-          "description": ""
-        },
-        {
-          "id": "thinkingmachines/inkling-small:batch",
-          "description": ""
-        },
-        {
-          "id": "thinkingmachines/inkling-small:free",
-          "description": "free"
-        },
-        {
-          "id": "thinkingmachines/inkling:batch",
-          "description": ""
-        },
-        {
-          "id": "thinkingmachines/inkling:free",
-          "description": "free"
-        },
-        {
-          "id": "upstage/solar-pro-3",
-          "description": ""
-        },
-        {
-          "id": "upstage/solar-pro4",
-          "description": ""
-        },
-        {
-          "id": "x-ai/grok-4.20",
-          "description": ""
-        },
-        {
-          "id": "x-ai/grok-4.3",
-          "description": ""
-        },
-        {
-          "id": "x-ai/grok-4.5",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.5 Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 30.0,
+            "completion_per_mtok": 180.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Mini",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 4.5,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "google/gemini-3.1-pro-preview",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Pro Preview",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "google/gemini-3.8-flash",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.8 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "google/gemini-3.7-flash",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.7 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "x-ai/grok-4.7",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.7",
+            "context_length": 500000,
+            "prompt_per_mtok": 1.6,
+            "completion_per_mtok": 4.8,
+            "curated_upstream": true
+          }
         },
         {
           "id": "x-ai/grok-4.6",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.6",
+            "context_length": 500000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "x-ai/grok-build-0.1",
-          "description": ""
+          "id": "deepseek/deepseek-v4-pro",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Pro 0423",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.783,
+            "completion_per_mtok": 1.566,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "xiaomi/mimo-v2.5",
-          "description": ""
+          "id": "deepseek/deepseek-v4-pro-0813",
+          "description": "dated snapshot of v4-pro",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Pro 0813",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.462,
+            "completion_per_mtok": 1.386,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "xiaomi/mimo-v2.5-pro",
-          "description": ""
+          "id": "deepseek/deepseek-v4.1-flash",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4.1 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "z-ai/glm-4.5",
-          "description": ""
+          "id": "deepseek/deepseek-v4-flash-0731",
+          "description": "dated snapshot of v4-flash",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Flash 0731",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.03,
+            "completion_per_mtok": 0.32,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "z-ai/glm-4.5-air",
-          "description": ""
+          "id": "qwen/qwen3.8-max-0902",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 Max (0902)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "z-ai/glm-4.5v",
-          "description": ""
+          "id": "qwen/qwen3.8-flash",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.47,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "z-ai/glm-4.6",
-          "description": ""
+          "id": "moonshotai/kimi-k3",
+          "description": "recommended",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K3",
+            "context_length": 1048576,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": true
+          }
         },
         {
-          "id": "z-ai/glm-4.6v",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-4.7",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-4.7-flash",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-5",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-5-turbo",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-5.1",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-5.2",
-          "description": ""
-        },
-        {
-          "id": "z-ai/glm-5.2:free",
-          "description": "free"
+          "id": "minimax/minimax-m3",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M3",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": true
+          }
         },
         {
           "id": "z-ai/glm-5.3",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3",
+            "context_length": 1310720,
+            "prompt_per_mtok": 1.4,
+            "completion_per_mtok": 4.4,
+            "curated_upstream": true
+          }
         },
         {
           "id": "z-ai/glm-5.3-flash",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 Flash",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.14,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "z-ai/glm-5.3-flashx",
+          "description": "high-speed tier of glm-5.3-flash",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 FlashX",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.37,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "z-ai/glm-5.2",
+          "description": "default",
+          "metadata": {
+            "name": "Z.ai: GLM 5.2",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.6496,
+            "completion_per_mtok": 2.0416,
+            "curated_upstream": true
+          },
+          "default": true
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-pro",
+          "description": "",
+          "metadata": {
+            "name": "Xiaomi: MiMo-V2.6-Pro",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.435,
+            "completion_per_mtok": 0.87,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-flash",
+          "description": "",
+          "metadata": {
+            "name": "Xiaomi: MiMo-V2.6-Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.14,
+            "completion_per_mtok": 0.28,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+          "description": "",
+          "metadata": {
+            "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+            "context_length": 1048576,
+            "prompt_per_mtok": 4.35,
+            "completion_per_mtok": 8.7,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "xiaomi/mimo-v2.5-pro",
+          "description": "",
+          "metadata": {
+            "name": "Xiaomi: MiMo-V2.5-Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.435,
+            "completion_per_mtok": 0.87,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "tencent/hy4-preview",
+          "description": "",
+          "metadata": {
+            "name": "Tencent: Hy4 preview",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.834,
+            "completion_per_mtok": 2.501,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "tencent/hy3",
+          "description": "",
+          "metadata": {
+            "name": "Tencent: Hy3",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.132,
+            "completion_per_mtok": 0.528,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "stepfun/step-3.7-flash",
+          "description": "",
+          "metadata": {
+            "name": "StepFun: Step 3.7 Flash",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.15,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-super-120b-a12b",
+          "description": "",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Super",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.45,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "meta/muse-spark-1.2",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Spark 1.2",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 4.25,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "meta/muse-spark-1.2-contributor",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Spark 1.2 Contributor",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "meta/muse-spark-1.3",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Spark 1.3",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 4.25,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "meta/muse-spark-1.3-contributor",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Spark 1.3 Contributor",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "sakana/fugu-ultra",
+          "description": "",
+          "metadata": {
+            "name": "Sakana: Fugu Ultra",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 30.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling:free",
+          "description": "free",
+          "metadata": {
+            "name": "Thinking Machines: Inkling (free)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling-small:free",
+          "description": "free",
+          "metadata": {
+            "name": "Thinking Machines: Inkling Small (free)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "poolside/laguna-s-2.1:free",
+          "description": "free",
+          "metadata": {
+            "name": "Poolside: Laguna S 2.1 (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "poolside/laguna-xs-2.1:free",
+          "description": "free",
+          "metadata": {
+            "name": "Poolside: Laguna XS 2.1 (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "description": "free",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Super (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "description": "free",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Ultra (free)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3.5-lightning:free",
+          "description": "free",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "aion-labs/aion-2.0",
+          "description": "",
+          "metadata": {
+            "name": "AionLabs: Aion-2.0",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.8,
+            "completion_per_mtok": 1.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "aion-labs/aion-3.0",
+          "description": "",
+          "metadata": {
+            "name": "AionLabs: Aion-3.0",
+            "context_length": 131072,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "aion-labs/aion-3.0-mini",
+          "description": "",
+          "metadata": {
+            "name": "AionLabs: Aion-3.0-Mini",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.7,
+            "completion_per_mtok": 1.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "aion-labs/aion-3.5",
+          "description": "",
+          "metadata": {
+            "name": "AionLabs: Aion 3.5",
+            "context_length": 262144,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "aion-labs/aion-3.5-mini",
+          "description": "",
+          "metadata": {
+            "name": "AionLabs: Aion 3.5 Mini",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.7,
+            "completion_per_mtok": 1.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "amazon/nova-2-lite-v1",
+          "description": "",
+          "metadata": {
+            "name": "Amazon: Nova 2 Lite",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "amazon/nova-lite-v1",
+          "description": "",
+          "metadata": {
+            "name": "Amazon: Nova Lite 1.0",
+            "context_length": 300000,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.24,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "amazon/nova-micro-v1",
+          "description": "",
+          "metadata": {
+            "name": "Amazon: Nova Micro 1.0",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.035,
+            "completion_per_mtok": 0.14,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "amazon/nova-premier-v1",
+          "description": "",
+          "metadata": {
+            "name": "Amazon: Nova Premier 1.0",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "amazon/nova-pro-v1",
+          "description": "",
+          "metadata": {
+            "name": "Amazon: Nova Pro 1.0",
+            "context_length": 300000,
+            "prompt_per_mtok": 0.8,
+            "completion_per_mtok": 3.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-3-haiku",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude 3 Haiku",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-fable-5.1:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Fable 5.1 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-fable-5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Fable 5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-haiku-4.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Haiku 4.5 (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.1",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.1",
+            "context_length": 200000,
+            "prompt_per_mtok": 15.0,
+            "completion_per_mtok": 75.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.1:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.1 (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 7.5,
+            "completion_per_mtok": 37.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.5",
+            "context_length": 200000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.5 (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.6",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.6",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.6:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.6 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.7",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.7",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.7:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.7 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-4.8:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 4.8 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-5.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 5.5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-opus-5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus 5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 12.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-4",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 4",
+            "context_length": 200000,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-4.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 4.5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-4.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-4.6",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 4.6",
+            "context_length": 1000000,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-4.6:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "arcee-ai/trinity-large-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Arcee AI: Trinity Large Thinking",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-1.6",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed 1.6",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-1.6-flash",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed 1.6 Flash",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-2-1-turbo",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed 2.1 Turbo",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-2.0-code",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed-2.0-Code",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 3.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-2.0-lite",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed-2.0-Lite",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "bytedance-seed/seed-2.0-mini",
+          "description": "",
+          "metadata": {
+            "name": "ByteDance Seed: Seed-2.0-Mini",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "cohere/command-a-plus",
+          "description": "",
+          "metadata": {
+            "name": "Cohere: Command A+",
+            "context_length": 192000,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "cohere/command-r-08-2024",
+          "description": "",
+          "metadata": {
+            "name": "Cohere: Command R (08-2024)",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "cohere/command-r-plus-08-2024",
+          "description": "",
+          "metadata": {
+            "name": "Cohere: Command R+ (08-2024)",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "cohere/north-mini-code:free",
+          "description": "free",
+          "metadata": {
+            "name": "Cohere: North Mini Code (free)",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-chat",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.32,
+            "completion_per_mtok": 0.89,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-chat-v3-0324",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3 0324",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-chat-v3.1",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3.1",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.95,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-r1",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: R1",
+            "context_length": 64000,
+            "prompt_per_mtok": 0.7,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-r1-0528",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: R1 0528",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.15,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v3.1-terminus",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3.1 Terminus",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.27,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v3.2",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3.2",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.269,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v3.2-exp",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V3.2 Exp",
+            "context_length": 163840,
+            "prompt_per_mtok": 0.27,
+            "completion_per_mtok": 0.41,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Flash 0423",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.049,
+            "completion_per_mtok": 0.098,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash-vision-exp",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.22,
+            "completion_per_mtok": 0.66,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.112,
+            "completion_per_mtok": 0.336,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "dots-studio/dots-3-note-preview:free",
+          "description": "free",
+          "metadata": {
+            "name": "Dots Studio: Dots3-Note Preview (free)",
+            "context_length": 512000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "fireworks/ember-1",
+          "description": "",
+          "metadata": {
+            "name": "Fireworks: Ember-1",
+            "context_length": 1048576,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-flash",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-flash-lite",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Flash Lite",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-flash-lite:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Flash Lite (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-pro",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Pro",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-pro-preview",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Pro Preview 06-05",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-2.5-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 2.5 Pro (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.625,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3-flash-preview",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3 Flash Preview",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 3.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3-flash-preview:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3 Flash Preview (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3-pro-image",
+          "description": "",
+          "metadata": {
+            "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+            "context_length": 131072,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.1-flash-lite",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Flash Lite",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.1-flash-lite-preview",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Flash Lite Preview",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.1-flash-lite:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Flash Lite (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.125,
+            "completion_per_mtok": 0.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.1-pro-preview-customtools",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.1-pro-preview:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.1 Pro Preview (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.5-flash",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.5 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 9.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.5-flash-lite",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.5 Flash Lite",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.5-flash-lite:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.5 Flash Lite (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.5-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.5 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 4.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.6-flash",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.6 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.6-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.6 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.375,
+            "completion_per_mtok": 1.875,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.7-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.7 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.375,
+            "completion_per_mtok": 1.875,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-3.8-flash:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 3.8 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.375,
+            "completion_per_mtok": 1.875,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemma 3 12B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.15,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-3-27b-it",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemma 3 27B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.45,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-4-26b-a4b-it",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemma 4 26B A4B ",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-4-26b-a4b-it:free",
+          "description": "free",
+          "metadata": {
+            "name": "Google: Gemma 4 26B A4B  (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-4-31b-it",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemma 4 31B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.34,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemma-4-31b-it:free",
+          "description": "free",
+          "metadata": {
+            "name": "Google: Gemma 4 31B (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "ibm-granite/granite-4.2-8b",
+          "description": "",
+          "metadata": {
+            "name": "IBM: Granite 4.2 8B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inception/mercury-2",
+          "description": "",
+          "metadata": {
+            "name": "Inception: Mercury 2",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inception/mercury-2.5",
+          "description": "",
+          "metadata": {
+            "name": "Inception: Mercury 2.5",
+            "context_length": 260000,
+            "prompt_per_mtok": 0.04,
+            "completion_per_mtok": 0.15,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash",
+          "description": "",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Flash",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.021,
+            "completion_per_mtok": 0.063,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash-fin",
+          "description": "",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Flash Fin",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.18,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash-fin:free",
+          "description": "free",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash-sante:free",
+          "description": "free",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash-vl",
+          "description": "",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Flash VL",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.18,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "kwaipilot/kat-coder-pro-v2.5",
+          "description": "",
+          "metadata": {
+            "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.74,
+            "completion_per_mtok": 2.96,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "liquid/lfm-2.5-2.6b:free",
+          "description": "free",
+          "metadata": {
+            "name": "LiquidAI: LFM2.5-2.6B (free)",
+            "context_length": 65536,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meituan/longcat-2.0",
+          "description": "",
+          "metadata": {
+            "name": "Meituan: LongCat 2.0",
+            "context_length": 1048756,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-3.1-70b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 3.1 70B Instruct",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-3.1-8b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 3.1 8B Instruct",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.08,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-3.3-70b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 3.3 70B Instruct",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.32,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-4-maverick",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 4 Maverick",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.1875,
+            "completion_per_mtok": 0.6525,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-4-scout",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 4 Scout",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta/muse-glimmer-30b",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Glimmer 30B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta/muse-spark-1.1",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Spark 1.1",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 4.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m1",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M1",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 2.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m2",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M2",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m2.1",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M2.1",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m2.5",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M2.5",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.27,
+            "completion_per_mtok": 1.08,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m2.7",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M2.7",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/codestral-2508",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Codestral 2508",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 0.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/codestral-2508:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Codestral 2508 (batch)",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.45,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/devstral-2512",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Devstral 2 2512",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/ministral-14b-2512",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Ministral 3 14B 2512",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/ministral-3b-2512",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Ministral 3 3B 2512",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.1,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/ministral-8b-2512",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Ministral 3 8B 2512",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.15,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/ministral-8b-2512:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Ministral 3 8B 2512 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.075,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-large",
+          "description": "",
+          "metadata": {
+            "name": "Mistral Large",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-large-2407",
+          "description": "",
+          "metadata": {
+            "name": "Mistral Large 2407",
+            "context_length": 131072,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-large-2512",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Large 3 2512",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-large-2512:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Large 3 2512 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-medium-3",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Medium 3",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-medium-3-5",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Medium 3.5",
+            "context_length": 262144,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-medium-3-5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Medium 3.5 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-medium-3.1",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Medium 3.1",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-medium-3.1:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Medium 3.1 (batch)",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-nemo",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Nemo",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.019,
+            "completion_per_mtok": 0.03,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-saba",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Saba",
+            "context_length": 32768,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-small-2603",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Small 4",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-small-2603:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Small 4 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-small-3.1-24b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Small 3.1 24B",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.351,
+            "completion_per_mtok": 0.555,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-small-3.2-24b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Small 3.2 24B",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.0938,
+            "completion_per_mtok": 0.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mixtral-8x22b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mixtral 8x22B Instruct",
+            "context_length": 65536,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/voxtral-small-24b-2507",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Voxtral Small 24B 2507",
+            "context_length": 32768,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2 0711",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.57,
+            "completion_per_mtok": 2.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2-0905",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2 0905",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2-thinking",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2 Thinking",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2.5",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2.5",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.45,
+            "completion_per_mtok": 2.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2.6",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2.6",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.95,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2.7-code",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2.7 Code",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.6562,
+            "completion_per_mtok": 3.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k3:batch",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K3 (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.28,
+            "completion_per_mtok": 11.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nex-agi/nex-n2.5-mini:free",
+          "description": "free",
+          "metadata": {
+            "name": "Nex AGI: Nex-N2.5-Mini (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nex-agi/nex-n2.5-pro:free",
+          "description": "free",
+          "metadata": {
+            "name": "Nex AGI: Nex-N2.5-Pro (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-30b-a3b",
+          "description": "",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "description": "free",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3-ultra-550b-a55b",
+          "description": "",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3 Ultra",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "nvidia/nemotron-3.5-lightning",
+          "description": "",
+          "metadata": {
+            "name": "NVIDIA: Nemotron 3.5 Lightning",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-3.5-turbo",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-3.5 Turbo",
+            "context_length": 16385,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-3.5-turbo-0613",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+            "context_length": 4095,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-3.5-turbo-16k",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-3.5 Turbo 16k",
+            "context_length": 16385,
+            "prompt_per_mtok": 3.0,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-3.5-turbo:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-3.5 Turbo (batch)",
+            "context_length": 16385,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4",
+            "context_length": 8191,
+            "prompt_per_mtok": 30.0,
+            "completion_per_mtok": 60.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4-turbo",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4 Turbo",
+            "context_length": 128000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 30.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4-turbo:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4 Turbo (batch)",
+            "context_length": 128000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1",
+            "context_length": 1047576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 8.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1 Mini",
+            "context_length": 1047576,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 1.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1 Mini (batch)",
+            "context_length": 1047576,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1-nano",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1 Nano",
+            "context_length": 1047576,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1-nano:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1 Nano (batch)",
+            "context_length": 1047576,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4.1:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4.1 (batch)",
+            "context_length": 1047576,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-2024-05-13",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o (2024-05-13)",
+            "context_length": 128000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-2024-08-06",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o (2024-08-06)",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-2024-11-20",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o (2024-11-20)",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o-mini",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-mini-2024-07-18",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o-mini (batch)",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-4o:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-4o (batch)",
+            "context_length": 128000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Mini",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Mini (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.125,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-nano",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Nano",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-nano:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Nano (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.025,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Pro",
+            "context_length": 400000,
+            "prompt_per_mtok": 15.0,
+            "completion_per_mtok": 120.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 Pro (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 7.5,
+            "completion_per_mtok": 60.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.1",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.1",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.1-codex",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.1-Codex",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.1-codex-max",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.1-Codex-Max",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.1-codex-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.1-Codex-Mini",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.1:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.1 (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.625,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.75,
+            "completion_per_mtok": 14.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2-chat",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2 Chat",
+            "context_length": 128000,
+            "prompt_per_mtok": 1.75,
+            "completion_per_mtok": 14.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2-codex",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2-Codex",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.75,
+            "completion_per_mtok": 14.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2 Pro",
+            "context_length": 400000,
+            "prompt_per_mtok": 21.0,
+            "completion_per_mtok": 168.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2 Pro (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 10.5,
+            "completion_per_mtok": 84.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.2:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.2 (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.875,
+            "completion_per_mtok": 7.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.3-codex",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.3-Codex",
+            "context_length": 400000,
+            "prompt_per_mtok": 1.75,
+            "completion_per_mtok": 14.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Mini (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.375,
+            "completion_per_mtok": 2.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-nano",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Nano",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-nano:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Nano (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.625,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 30.0,
+            "completion_per_mtok": 180.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 15.0,
+            "completion_per_mtok": 90.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.4:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.4 (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.5-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.5 Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 15.0,
+            "completion_per_mtok": 90.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.5 (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 15.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-luna",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Luna",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-luna-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Luna Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-luna-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-luna:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Luna (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-sol",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Sol",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-sol-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Sol Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-sol-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-sol:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Sol (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-terra",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Terra",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-terra-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Terra Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-terra-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5.6-terra:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5.6 Terra (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-5:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-5 (batch)",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.625,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-astra-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Astra Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-astra:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Astra (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 25.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-luna-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Luna Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-luna:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Luna (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-sol-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Sol Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6-sol:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6 Sol (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-audio",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Audio",
+            "context_length": 128000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-audio-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Audio Mini",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-chat-latest",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Chat Latest",
+            "context_length": 400000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 30.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: gpt-oss-120b",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-oss-120b:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: gpt-oss-120b (batch)",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.0296,
+            "completion_per_mtok": 0.136,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: gpt-oss-20b",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.018,
+            "completion_per_mtok": 0.09,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-oss-20b:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: gpt-oss-20b (batch)",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.024,
+            "completion_per_mtok": 0.112,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-20b",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: gpt-oss-safeguard-20b",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o1",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o1",
+            "context_length": 200000,
+            "prompt_per_mtok": 15.0,
+            "completion_per_mtok": 60.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3",
+            "context_length": 200000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 8.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3 Mini",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.1,
+            "completion_per_mtok": 4.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3-mini-high",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3 Mini High",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.1,
+            "completion_per_mtok": 4.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3 Mini (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.55,
+            "completion_per_mtok": 2.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3 Pro",
+            "context_length": 200000,
+            "prompt_per_mtok": 20.0,
+            "completion_per_mtok": 80.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o3:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o3 (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o4-mini",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o4 Mini",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.1,
+            "completion_per_mtok": 4.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o4-mini-high",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o4 Mini High",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.1,
+            "completion_per_mtok": 4.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/o4-mini:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: o4 Mini (batch)",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.55,
+            "completion_per_mtok": 2.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openrouter/auto",
+          "description": "",
+          "metadata": {
+            "name": "Auto Router",
+            "context_length": 2000000,
+            "prompt_per_mtok": null,
+            "completion_per_mtok": null,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openrouter/auto-beta",
+          "description": "",
+          "metadata": {
+            "name": "Auto Router (Beta)",
+            "context_length": 2000000,
+            "prompt_per_mtok": null,
+            "completion_per_mtok": null,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openrouter/free",
+          "description": "free",
+          "metadata": {
+            "name": "Free Models Router",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "poolside/laguna-s-2.1",
+          "description": "",
+          "metadata": {
+            "name": "Poolside: Laguna S 2.1",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.18,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "poolside/laguna-xs-2.1",
+          "description": "",
+          "metadata": {
+            "name": "Poolside: Laguna XS 2.1",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.12,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "prism-ml/ternary-bonsai-2-27b",
+          "description": "",
+          "metadata": {
+            "name": "PrismML: Ternary Bonsai 2 27B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen-2.5-72b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen2.5 72B Instruct",
+            "context_length": 32768,
+            "prompt_per_mtok": 0.36,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen-2.5-7b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen2.5 7B Instruct",
+            "context_length": 32768,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen-plus",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen-Plus",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 0.78,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen-plus-2025-07-28",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen Plus 0728",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 0.78,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-14b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 14B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.12,
+            "completion_per_mtok": 0.24,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-235b-a22b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 235B A22B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.455,
+            "completion_per_mtok": 1.82,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-235b-a22b-2507",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0875,
+            "completion_per_mtok": 0.35,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-235b-a22b-thinking-2507",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.23,
+            "completion_per_mtok": 2.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-30b-a3b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 30B A3B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.12,
+            "completion_per_mtok": 0.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-30b-a3b-instruct-2507",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-30b-a3b-thinking-2507",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+            "context_length": 81920,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 2.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-32b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 32B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.28,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-8b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 8B",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.117,
+            "completion_per_mtok": 0.455,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-coder",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Coder 480B A35B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-coder-30b-a3b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.07,
+            "completion_per_mtok": 0.28,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-coder-flash",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Coder Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.195,
+            "completion_per_mtok": 0.975,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-coder-next",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Coder Next",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.12,
+            "completion_per_mtok": 0.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-coder-plus",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Coder Plus",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.65,
+            "completion_per_mtok": 3.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-max",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Max",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.78,
+            "completion_per_mtok": 3.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-max-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Max Thinking",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.78,
+            "completion_per_mtok": 3.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-next-80b-a3b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 1.1,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-next-80b-a3b-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-235b-a22b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.21,
+            "completion_per_mtok": 1.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-235b-a22b-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-30b-a3b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-30b-a3b-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 2.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-32b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 32B Instruct",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.104,
+            "completion_per_mtok": 0.416,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-8b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 8B Instruct",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.117,
+            "completion_per_mtok": 0.455,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3-vl-8b-thinking",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3 VL 8B Thinking",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.18,
+            "completion_per_mtok": 2.1,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-122b-a10b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5-122B-A10B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 2.08,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-27b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5-27B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.195,
+            "completion_per_mtok": 1.56,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-35b-a3b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5-35B-A3B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.3125,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-397b-a17b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5 397B A17B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.55,
+            "completion_per_mtok": 3.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-9b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5-9B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.15,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-flash-02-23",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5-Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.065,
+            "completion_per_mtok": 0.26,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-plus-02-15",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 1.56,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.5-plus-20260420",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.6-27b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.6 27B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.32,
+            "completion_per_mtok": 2.7,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.6-35b-a3b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.6 35B A3B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.6-flash",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.6 Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.1875,
+            "completion_per_mtok": 1.125,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.6-max-preview",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.6 Max Preview",
+            "context_length": 262144,
+            "prompt_per_mtok": 1.027,
+            "completion_per_mtok": 6.162,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.6-plus",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.6 Plus",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.325,
+            "completion_per_mtok": 1.95,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.7-flash",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.7 Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.03,
+            "completion_per_mtok": 0.13,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.7-max",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.7 Max",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.475,
+            "completion_per_mtok": 4.425,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.7-plus",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.7 Plus",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.32,
+            "completion_per_mtok": 1.28,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.8-2.4t-a95b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 2.4T A95B",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.8-27b",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 27B",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.42,
+            "completion_per_mtok": 3.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.8-27b:free",
+          "description": "free",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 27B (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.8-max-prime",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 Max Prime",
+            "context_length": 1000000,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "qwen/qwen3.8-omni-flash",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 Omni Flash",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.47,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "rekaai/reka-edge",
+          "description": "",
+          "metadata": {
+            "name": "Reka Edge",
+            "context_length": 16384,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.1,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "relace/relace-search",
+          "description": "",
+          "metadata": {
+            "name": "Relace: Relace Search",
+            "context_length": 256000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 3.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "sakana/fugu-max",
+          "description": "",
+          "metadata": {
+            "name": "Sakana: Fugu Max",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "sakana/fugu-ultra-v2",
+          "description": "",
+          "metadata": {
+            "name": "Sakana: Fugu Ultra v2",
+            "context_length": 1000000,
+            "prompt_per_mtok": 5.0,
+            "completion_per_mtok": 30.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "sakana/sakana-namazu",
+          "description": "",
+          "metadata": {
+            "name": "Sakana: Sakana Namazu",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.95,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "sao10k/l3.1-euryale-70b",
+          "description": "",
+          "metadata": {
+            "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.85,
+            "completion_per_mtok": 0.85,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "stealth/space-bunny-alpha",
+          "description": "free",
+          "metadata": {
+            "name": "Space Bunny Alpha",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "stepfun/step-3.5-flash",
+          "description": "",
+          "metadata": {
+            "name": "StepFun: Step 3.5 Flash",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "tencent/hy3-preview",
+          "description": "",
+          "metadata": {
+            "name": "Tencent: Hy3 preview",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.18,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling",
+          "description": "",
+          "metadata": {
+            "name": "Thinking Machines: Inkling",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 4.05,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling-small",
+          "description": "",
+          "metadata": {
+            "name": "Thinking Machines: Inkling Small",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.45,
+            "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "unbiased/pareto",
+          "description": "",
+          "metadata": {
+            "name": "Pareto",
+            "context_length": 262144,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "upstage/solar-mini4",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Mini 4",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "upstage/solar-pro-3",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Pro 3",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "upstage/solar-pro4",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Pro 4",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.36,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "x-ai/grok-4.20",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.20",
+            "context_length": 2000000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "x-ai/grok-4.3",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.3",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.25,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "x-ai/grok-4.3:batch",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.3 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "x-ai/grok-4.5",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok 4.5",
+            "context_length": 500000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "x-ai/grok-build-0.1",
+          "description": "",
+          "metadata": {
+            "name": "SpaceXAI: Grok Build 0.1",
+            "context_length": 256000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "xiaomi/mimo-v2.5",
+          "description": "",
+          "metadata": {
+            "name": "Xiaomi: MiMo-V2.5",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.14,
+            "completion_per_mtok": 0.28,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.5",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.5",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.5-air",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.5 Air",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.13,
+            "completion_per_mtok": 0.85,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.5v",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.5V",
+            "context_length": 65536,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 1.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.6",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.6",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.43,
+            "completion_per_mtok": 1.75,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.6v",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.6V",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 0.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.7",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.7",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-4.7-flash",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 4.7 Flash",
+            "context_length": 200000,
+            "prompt_per_mtok": 0.0605,
+            "completion_per_mtok": 0.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-5",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 1.92,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-5-turbo",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5 Turbo",
+            "context_length": 202752,
+            "prompt_per_mtok": 1.2,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-5.1",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.1",
+            "context_length": 204800,
+            "prompt_per_mtok": 0.9646,
+            "completion_per_mtok": 3.0316,
+            "curated_upstream": false
+          }
         },
         {
           "id": "z-ai/glm-5.3-flash:batch",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 Flash (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-5.3-prime",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 Prime",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.8,
+            "completion_per_mtok": 8.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "z-ai/glm-5.3:batch",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.45,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "z-ai/glm-5v-turbo",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5V Turbo",
+            "context_length": 202752,
+            "prompt_per_mtok": 1.2,
+            "completion_per_mtok": 4.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~anthropic/claude-fable-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Fable Latest",
+            "context_length": 1000000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~anthropic/claude-haiku-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Haiku Latest",
+            "context_length": 200000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~anthropic/claude-opus-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Opus Latest",
+            "context_length": 1000000,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~anthropic/claude-sonnet-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet Latest",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~deepseek/deepseek-flash-latest",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek Flash Latest",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.04,
+            "completion_per_mtok": 0.49,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~deepseek/deepseek-pro-latest",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek Pro Latest",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.0998,
+            "completion_per_mtok": 2.88,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~deepseek/deepseek-v4-flash-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Flash Latest",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.03,
+            "completion_per_mtok": 0.32,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~google/gemini-flash-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini Flash Latest",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~google/gemini-pro-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini Pro Latest",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~moonshotai/kimi-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi Latest",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.8845,
+            "completion_per_mtok": 10.5346,
+            "curated_upstream": false
+          }
         },
         {
-          "id": "~openai/gpt-latest",
-          "description": ""
+          "id": "~openai/gpt-astra-latest",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Astra Latest",
+            "context_length": 1050000,
+            "prompt_per_mtok": 10.0,
+            "completion_per_mtok": 50.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~openai/gpt-luna-latest",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Luna Latest",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.5,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~openai/gpt-mini-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Mini Latest",
+            "context_length": 400000,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 4.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~openai/gpt-sol-latest",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Sol Latest",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~openai/gpt-terra-latest",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT Terra Latest",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 12.0,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~x-ai/grok-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "xAI: Grok Latest",
+            "context_length": 500000,
+            "prompt_per_mtok": 1.6,
+            "completion_per_mtok": 4.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "~z-ai/glm-flash-latest",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM Flash Latest",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.14,
+            "curated_upstream": false
+          }
         },
         {
           "id": "~z-ai/glm-latest",
-          "description": ""
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM Latest",
+            "context_length": 1310720,
+            "prompt_per_mtok": 0.5614,
+            "completion_per_mtok": 1.7644,
+            "curated_upstream": false
+          }
         }
       ]
     }
