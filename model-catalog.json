@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T09:55:46Z",
+  "updated_at": "2026-09-27T10:35:35Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -251,8 +251,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.3783,
-            "completion_per_mtok": 0.7566,
+            "prompt_per_mtok": 0.348,
+            "completion_per_mtok": 0.696,
             "curated_upstream": true
           }
         },
@@ -262,8 +262,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0813",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.264,
-            "completion_per_mtok": 0.792,
+            "prompt_per_mtok": 0.245,
+            "completion_per_mtok": 3.5,
             "curated_upstream": true
           }
         },
@@ -273,8 +273,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.035,
+            "completion_per_mtok": 0.29,
             "curated_upstream": true
           }
         },
@@ -339,8 +339,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.3794,
-            "completion_per_mtok": 1.1924,
+            "prompt_per_mtok": 1.4,
+            "completion_per_mtok": 4.4,
             "curated_upstream": true
           }
         },
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.04,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.14,
             "curated_upstream": true
           }
         },
@@ -1143,8 +1143,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.047,
-            "completion_per_mtok": 0.0941,
+            "prompt_per_mtok": 0.0469,
+            "completion_per_mtok": 0.0938,
             "curated_upstream": false
           }
         },
@@ -1154,8 +1154,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.22,
-            "completion_per_mtok": 0.66,
+            "prompt_per_mtok": 0.2156,
+            "completion_per_mtok": 0.6468,
             "curated_upstream": false
           }
         },
@@ -1726,8 +1726,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2",
             "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.255,
+            "completion_per_mtok": 1.02,
             "curated_upstream": false
           }
         },
@@ -1759,8 +1759,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2.7",
             "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.21,
+            "completion_per_mtok": 0.84,
             "curated_upstream": false
           }
         },
@@ -4168,8 +4168,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2495,
-            "completion_per_mtok": 0.7484,
+            "prompt_per_mtok": 0.2442,
+            "completion_per_mtok": 0.7326,
             "curated_upstream": false
           }
         },
@@ -4212,8 +4212,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 1.0301,
-            "completion_per_mtok": 9.043,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 9.0,
             "curated_upstream": false
           }
         },
@@ -4289,8 +4289,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.04,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.14,
             "curated_upstream": false
           }
         },
@@ -4300,8 +4300,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.3794,
-            "completion_per_mtok": 1.1924,
+            "prompt_per_mtok": 0.2737,
+            "completion_per_mtok": 2.574,
             "curated_upstream": false
           }
         }
