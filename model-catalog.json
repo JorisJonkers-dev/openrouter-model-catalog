@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T11:45:01Z",
+  "updated_at": "2026-09-29T11:24:00Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 390
+        "count": 392
       },
       "models": [
         {
@@ -66,6 +66,17 @@
             "context_length": 1000000,
             "prompt_per_mtok": 5.0,
             "completion_per_mtok": 25.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "anthropic/claude-sonnet-5.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 5.5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
             "curated_upstream": true
           }
         },
@@ -229,8 +240,8 @@
           "metadata": {
             "name": "SpaceXAI: Grok 4.7",
             "context_length": 500000,
-            "prompt_per_mtok": 1.6,
-            "completion_per_mtok": 4.8,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
             "curated_upstream": true
           }
         },
@@ -262,7 +273,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0813",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.3995,
+            "prompt_per_mtok": 0.48,
             "completion_per_mtok": 4.2,
             "curated_upstream": true
           }
@@ -273,8 +284,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.035,
-            "completion_per_mtok": 0.29,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": true
           }
         },
@@ -284,7 +295,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.021,
+            "prompt_per_mtok": 0.018,
             "completion_per_mtok": 0.32,
             "curated_upstream": true
           }
@@ -372,8 +383,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.6496,
-            "completion_per_mtok": 2.0416,
+            "prompt_per_mtok": 0.2807,
+            "completion_per_mtok": 4.4,
             "curated_upstream": true
           },
           "default": true
@@ -918,6 +929,17 @@
           }
         },
         {
+          "id": "anthropic/claude-sonnet-5.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "anthropic/claude-sonnet-5:batch",
           "description": "",
           "metadata": {
@@ -1110,7 +1132,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V3.1 Terminus",
             "context_length": 163840,
-            "prompt_per_mtok": 0.27,
+            "prompt_per_mtok": 0.3,
             "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
@@ -1154,8 +1176,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.44,
-            "completion_per_mtok": 1.32,
+            "prompt_per_mtok": 0.2156,
+            "completion_per_mtok": 0.6468,
             "curated_upstream": false
           }
         },
@@ -1567,17 +1589,6 @@
           }
         },
         {
-          "id": "inclusionai/ling-3.0-flash-fin:free",
-          "description": "free",
-          "metadata": {
-            "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "inclusionai/ling-3.0-flash-sante:free",
           "description": "free",
           "metadata": {
@@ -1759,8 +1770,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2.7",
             "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.21,
+            "completion_per_mtok": 0.84,
             "curated_upstream": false
           }
         },
@@ -2106,6 +2117,17 @@
           }
         },
         {
+          "id": "nex-agi/nex-n2.5-pro",
+          "description": "",
+          "metadata": {
+            "name": "Nex AGI: Nex-N2.5-Pro",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.25,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "nvidia/nemotron-3-nano-30b-a3b",
           "description": "",
           "metadata": {
@@ -2144,8 +2166,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3.5 Lightning",
             "context_length": 1000000,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.2,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.16,
             "curated_upstream": false
           }
         },
@@ -2749,8 +2771,8 @@
           "metadata": {
             "name": "OpenAI: GPT-5.6 Sol Pro",
             "context_length": 1050000,
-            "prompt_per_mtok": 2.0,
-            "completion_per_mtok": 10.0,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
             "curated_upstream": false
           }
         },
@@ -2936,8 +2958,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.037,
+            "completion_per_mtok": 0.17,
             "curated_upstream": false
           }
         },
@@ -3277,8 +3299,8 @@
           "metadata": {
             "name": "Qwen: Qwen3 30B A3B Instruct 2507",
             "context_length": 262144,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.0481,
+            "completion_per_mtok": 0.193,
             "curated_upstream": false
           }
         },
@@ -3684,8 +3706,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
             "context_length": 1000000,
-            "prompt_per_mtok": 0.42,
-            "completion_per_mtok": 3.0,
+            "prompt_per_mtok": 0.0449,
+            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         },
@@ -4157,8 +4179,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.035,
-            "completion_per_mtok": 0.29,
+            "prompt_per_mtok": 0.02,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -4168,7 +4190,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2259,
+            "prompt_per_mtok": 0.096,
             "completion_per_mtok": 1.9584,
             "curated_upstream": false
           }
@@ -4179,8 +4201,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.021,
-            "completion_per_mtok": 0.32,
+            "prompt_per_mtok": 0.012,
+            "completion_per_mtok": 1.25,
             "curated_upstream": false
           }
         },
@@ -4212,8 +4234,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 1.0,
-            "completion_per_mtok": 9.0,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 10.0,
             "curated_upstream": false
           }
         },
@@ -4278,8 +4300,8 @@
           "metadata": {
             "name": "xAI: Grok Latest",
             "context_length": 500000,
-            "prompt_per_mtok": 1.6,
-            "completion_per_mtok": 4.8,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 6.0,
             "curated_upstream": false
           }
         },
@@ -4289,8 +4311,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.045,
-            "completion_per_mtok": 0.14,
+            "prompt_per_mtok": 0.02,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -4300,8 +4322,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1310720,
-            "prompt_per_mtok": 0.1785,
-            "completion_per_mtok": 2.805,
+            "prompt_per_mtok": 0.19,
+            "completion_per_mtok": 4.0,
             "curated_upstream": false
           }
         }
