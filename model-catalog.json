@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T11:08:54Z",
+  "updated_at": "2026-10-03T10:26:53Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 397
+        "count": 398
       },
       "models": [
         {
@@ -317,7 +317,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0051,
+            "prompt_per_mtok": 0.0188,
             "completion_per_mtok": 1.28,
             "curated_upstream": true
           }
@@ -551,6 +551,28 @@
             "context_length": 1000000,
             "prompt_per_mtok": 5.0,
             "completion_per_mtok": 30.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "upstage/solar-pro4",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Pro 4",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.36,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "upstage/solar-mini4",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Mini 4",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.2,
             "curated_upstream": true
           }
         },
@@ -1176,7 +1198,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V3.1 Terminus",
             "context_length": 163840,
-            "prompt_per_mtok": 0.3,
+            "prompt_per_mtok": 0.27,
             "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
@@ -1209,8 +1231,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.042,
-            "completion_per_mtok": 0.084,
+            "prompt_per_mtok": 0.028,
+            "completion_per_mtok": 0.056,
             "curated_upstream": false
           }
         },
@@ -1539,8 +1561,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.0675,
+            "completion_per_mtok": 0.225,
             "curated_upstream": false
           }
         },
@@ -1627,8 +1649,8 @@
           "metadata": {
             "name": "inclusionAI: Ling 3.0 Flash Fin",
             "context_length": 262144,
-            "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 0.18,
+            "prompt_per_mtok": 0.042,
+            "completion_per_mtok": 0.1232,
             "curated_upstream": false
           }
         },
@@ -1651,6 +1673,17 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.021,
             "completion_per_mtok": 0.0616,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.1-flash",
+          "description": "free",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.1 Flash",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
             "curated_upstream": false
           }
         },
@@ -2133,8 +2166,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.6",
             "context_length": 262144,
-            "prompt_per_mtok": 0.4341,
-            "completion_per_mtok": 1.828,
+            "prompt_per_mtok": 0.95,
+            "completion_per_mtok": 4.0,
             "curated_upstream": false
           }
         },
@@ -2210,8 +2243,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3.5 Lightning",
             "context_length": 262144,
-            "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 0.16,
+            "prompt_per_mtok": 0.0595,
+            "completion_per_mtok": 0.17,
             "curated_upstream": false
           }
         },
@@ -3932,17 +3965,6 @@
           }
         },
         {
-          "id": "upstage/solar-mini4",
-          "description": "",
-          "metadata": {
-            "name": "Upstage: Solar Mini 4",
-            "context_length": 524288,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "upstage/solar-pro-3",
           "description": "",
           "metadata": {
@@ -3950,17 +3972,6 @@
             "context_length": 131072,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 0.6,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "upstage/solar-pro4",
-          "description": "",
-          "metadata": {
-            "name": "Upstage: Solar Pro 4",
-            "context_length": 524288,
-            "prompt_per_mtok": 0.09,
-            "completion_per_mtok": 0.36,
             "curated_upstream": false
           }
         },
@@ -4135,8 +4146,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.1",
             "context_length": 204800,
-            "prompt_per_mtok": 0.9646,
-            "completion_per_mtok": 3.0316,
+            "prompt_per_mtok": 1.4,
+            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         },
@@ -4234,7 +4245,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0027,
+            "prompt_per_mtok": 0.02,
             "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
@@ -4245,8 +4256,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.132,
-            "completion_per_mtok": 0.396,
+            "prompt_per_mtok": 0.12,
+            "completion_per_mtok": 4.2,
             "curated_upstream": false
           }
         },
@@ -4256,8 +4267,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0038,
-            "completion_per_mtok": 1.6,
+            "prompt_per_mtok": 0.0188,
+            "completion_per_mtok": 1.28,
             "curated_upstream": false
           }
         },
@@ -4289,7 +4300,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 1.39,
+            "prompt_per_mtok": 0.9895,
             "completion_per_mtok": 13.0,
             "curated_upstream": false
           }
@@ -4366,8 +4377,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0262,
-            "completion_per_mtok": 0.9,
+            "prompt_per_mtok": 0.035,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
