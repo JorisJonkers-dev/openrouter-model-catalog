@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-07T11:49:35Z",
+  "updated_at": "2026-10-08T12:04:41Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 397
+        "count": 399
       },
       "models": [
         {
@@ -88,6 +88,17 @@
             "context_length": 1000000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "anthropic/claude-haiku-5.5",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Haiku 5.5",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.5,
             "curated_upstream": true
           }
         },
@@ -284,8 +295,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2088,
-            "completion_per_mtok": 0.4176,
+            "prompt_per_mtok": 0.9553,
+            "completion_per_mtok": 1.9105,
             "curated_upstream": true
           }
         },
@@ -306,8 +317,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.0356,
+            "completion_per_mtok": 1.0,
             "curated_upstream": true
           }
         },
@@ -317,7 +328,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.018,
+            "prompt_per_mtok": 0.0137,
             "completion_per_mtok": 1.28,
             "curated_upstream": true
           }
@@ -351,7 +362,7 @@
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
             "prompt_per_mtok": 0.62,
-            "completion_per_mtok": 15.0,
+            "completion_per_mtok": 12.3,
             "curated_upstream": true
           }
         },
@@ -372,8 +383,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.07,
-            "completion_per_mtok": 7.0,
+            "prompt_per_mtok": 0.049,
+            "completion_per_mtok": 3.39,
             "curated_upstream": true
           }
         },
@@ -405,8 +416,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.171,
-            "completion_per_mtok": 7.2,
+            "prompt_per_mtok": 0.03,
+            "completion_per_mtok": 10.0,
             "curated_upstream": true
           },
           "default": true
@@ -494,8 +505,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3 Super",
             "context_length": 262144,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.45,
+            "prompt_per_mtok": 0.085,
+            "completion_per_mtok": 0.4,
             "curated_upstream": true
           }
         },
@@ -793,6 +804,17 @@
             "context_length": 200000,
             "prompt_per_mtok": 0.5,
             "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "anthropic/claude-haiku-5.5:batch",
+          "description": "",
+          "metadata": {
+            "name": "Anthropic: Claude Haiku 5.5 (batch)",
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.25,
             "curated_upstream": false
           }
         },
@@ -1198,7 +1220,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V3.2",
             "context_length": 163840,
-            "prompt_per_mtok": 0.28,
+            "prompt_per_mtok": 0.259,
             "completion_per_mtok": 0.42,
             "curated_upstream": false
           }
@@ -1220,7 +1242,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.03,
+            "prompt_per_mtok": 0.0173,
             "completion_per_mtok": 1.28,
             "curated_upstream": false
           }
@@ -1737,8 +1759,8 @@
           "metadata": {
             "name": "Meta: Llama 3.3 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.22,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.32,
             "curated_upstream": false
           }
         },
@@ -2210,8 +2232,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.2,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.24,
             "curated_upstream": false
           }
         },
@@ -2243,8 +2265,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3.5 Lightning",
             "context_length": 262144,
-            "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 0.16,
+            "prompt_per_mtok": 0.049,
+            "completion_per_mtok": 0.14,
             "curated_upstream": false
           }
         },
@@ -3497,8 +3519,8 @@
           "metadata": {
             "name": "Qwen: Qwen3 Next 80B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 1.1,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.5,
             "curated_upstream": false
           }
         },
@@ -3607,8 +3629,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.195,
-            "completion_per_mtok": 1.56,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 2.6,
             "curated_upstream": false
           }
         },
@@ -3684,8 +3706,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.6 27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.45,
+            "completion_per_mtok": 2.7,
             "curated_upstream": false
           }
         },
@@ -4200,9 +4222,9 @@
           "description": "",
           "metadata": {
             "name": "Anthropic: Claude Haiku Latest",
-            "context_length": 200000,
-            "prompt_per_mtok": 1.0,
-            "completion_per_mtok": 5.0,
+            "context_length": 1000000,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -4234,8 +4256,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.0356,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -4245,8 +4267,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.19,
-            "completion_per_mtok": 5.0,
+            "prompt_per_mtok": 0.108,
+            "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
         },
@@ -4256,8 +4278,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.018,
-            "completion_per_mtok": 1.28,
+            "prompt_per_mtok": 0.011,
+            "completion_per_mtok": 0.3479,
             "curated_upstream": false
           }
         },
@@ -4289,7 +4311,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.61,
+            "prompt_per_mtok": 0.45,
             "completion_per_mtok": 13.0,
             "curated_upstream": false
           }
@@ -4366,8 +4388,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.036,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.032,
+            "completion_per_mtok": 3.0327,
             "curated_upstream": false
           }
         },
@@ -4377,8 +4399,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.063,
-            "completion_per_mtok": 6.3,
+            "prompt_per_mtok": 0.036,
+            "completion_per_mtok": 12.0,
             "curated_upstream": false
           }
         }
