@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08T12:04:41Z",
+  "updated_at": "2026-10-09T11:56:27Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 399
+        "count": 401
       },
       "models": [
         {
@@ -317,8 +317,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0356,
-            "completion_per_mtok": 1.0,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": true
           }
         },
@@ -328,7 +328,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0137,
+            "prompt_per_mtok": 0.0079,
             "completion_per_mtok": 1.28,
             "curated_upstream": true
           }
@@ -361,8 +361,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.62,
-            "completion_per_mtok": 12.3,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 12.0,
             "curated_upstream": true
           }
         },
@@ -383,8 +383,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.049,
-            "completion_per_mtok": 3.39,
+            "prompt_per_mtok": 0.039,
+            "completion_per_mtok": 4.8,
             "curated_upstream": true
           }
         },
@@ -416,8 +416,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.03,
-            "completion_per_mtok": 10.0,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 6.0,
             "curated_upstream": true
           },
           "default": true
@@ -505,8 +505,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3 Super",
             "context_length": 262144,
-            "prompt_per_mtok": 0.085,
-            "completion_per_mtok": 0.4,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.45,
             "curated_upstream": true
           }
         },
@@ -1154,8 +1154,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V3",
             "context_length": 163840,
-            "prompt_per_mtok": 0.2574,
-            "completion_per_mtok": 1.0287,
+            "prompt_per_mtok": 0.32,
+            "completion_per_mtok": 0.89,
             "curated_upstream": false
           }
         },
@@ -1677,13 +1677,13 @@
           }
         },
         {
-          "id": "inclusionai/ling-3.0-flash-sante:free",
-          "description": "free",
+          "id": "inclusionai/ling-3.0-flash-sante",
+          "description": "",
           "metadata": {
-            "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+            "name": "inclusionAI: Ling 3.0 Flash Sante",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
+            "prompt_per_mtok": 0.042,
+            "completion_per_mtok": 0.1232,
             "curated_upstream": false
           }
         },
@@ -1759,8 +1759,8 @@
           "metadata": {
             "name": "Meta: Llama 3.3 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.32,
+            "prompt_per_mtok": 0.22,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -1989,7 +1989,7 @@
           "description": "",
           "metadata": {
             "name": "Mistral: Mistral Large 4",
-            "context_length": 524288,
+            "context_length": 1048576,
             "prompt_per_mtok": 0.68,
             "completion_per_mtok": 2.09,
             "curated_upstream": false
@@ -2056,7 +2056,7 @@
           "metadata": {
             "name": "Mistral: Mistral Nemo",
             "context_length": 131072,
-            "prompt_per_mtok": 0.019,
+            "prompt_per_mtok": 0.029,
             "completion_per_mtok": 0.03,
             "curated_upstream": false
           }
@@ -2265,8 +2265,8 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3.5 Lightning",
             "context_length": 262144,
-            "prompt_per_mtok": 0.049,
-            "completion_per_mtok": 0.14,
+            "prompt_per_mtok": 0.0469,
+            "completion_per_mtok": 0.134,
             "curated_upstream": false
           }
         },
@@ -3019,6 +3019,28 @@
           }
         },
         {
+          "id": "openai/gpt-6.1-sol-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.1-sol:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Sol (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "openai/gpt-audio",
           "description": "",
           "metadata": {
@@ -3398,8 +3420,8 @@
           "metadata": {
             "name": "Qwen: Qwen3 30B A3B Instruct 2507",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0481,
-            "completion_per_mtok": 0.193,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -3519,8 +3541,8 @@
           "metadata": {
             "name": "Qwen: Qwen3 Next 80B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 1.5,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 1.1,
             "curated_upstream": false
           }
         },
@@ -3640,8 +3662,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-35B-A3B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 1.0,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.75,
             "curated_upstream": false
           }
         },
@@ -3651,8 +3673,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5 397B A17B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.45,
-            "completion_per_mtok": 3.0,
+            "prompt_per_mtok": 0.55,
+            "completion_per_mtok": 3.5,
             "curated_upstream": false
           }
         },
@@ -3888,17 +3910,6 @@
           }
         },
         {
-          "id": "sao10k/l3.1-euryale-70b",
-          "description": "",
-          "metadata": {
-            "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
-            "context_length": 131072,
-            "prompt_per_mtok": 0.85,
-            "completion_per_mtok": 0.85,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "stepfun/step-3.5-flash",
           "description": "",
           "metadata": {
@@ -3906,6 +3917,17 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.1,
             "completion_per_mtok": 0.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "stepfun/step-5-preview",
+          "description": "",
+          "metadata": {
+            "name": "StepFun: Step 5 Preview",
+            "context_length": 1000000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 2.7,
             "curated_upstream": false
           }
         },
@@ -4256,8 +4278,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0356,
-            "completion_per_mtok": 1.0,
+            "prompt_per_mtok": 0.016,
+            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -4267,7 +4289,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.108,
+            "prompt_per_mtok": 0.198,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4278,8 +4300,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.011,
-            "completion_per_mtok": 0.3479,
+            "prompt_per_mtok": 0.0063,
+            "completion_per_mtok": 0.0577,
             "curated_upstream": false
           }
         },
@@ -4311,7 +4333,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.45,
+            "prompt_per_mtok": 0.49,
             "completion_per_mtok": 13.0,
             "curated_upstream": false
           }
@@ -4389,7 +4411,7 @@
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.032,
-            "completion_per_mtok": 3.0327,
+            "completion_per_mtok": 0.5535,
             "curated_upstream": false
           }
         },
@@ -4399,8 +4421,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.036,
-            "completion_per_mtok": 12.0,
+            "prompt_per_mtok": 0.0312,
+            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         }
