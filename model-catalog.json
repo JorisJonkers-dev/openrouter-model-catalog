@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13T12:45:16Z",
+  "updated_at": "2026-10-14T10:17:07Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 391
+        "count": 393
       },
       "models": [
         {
@@ -235,6 +235,17 @@
           }
         },
         {
+          "id": "google/gemini-4-argon",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Argon",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
           "id": "google/gemini-3.1-pro-preview",
           "description": "",
           "metadata": {
@@ -295,8 +306,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.4479,
-            "completion_per_mtok": 0.8958,
+            "prompt_per_mtok": 0.9553,
+            "completion_per_mtok": 1.9105,
             "curated_upstream": true
           }
         },
@@ -317,8 +328,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.0202,
+            "completion_per_mtok": 0.891,
             "curated_upstream": true
           }
         },
@@ -361,8 +372,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.73,
-            "completion_per_mtok": 10.0,
+            "prompt_per_mtok": 0.62,
+            "completion_per_mtok": 15.0,
             "curated_upstream": true
           }
         },
@@ -394,7 +405,7 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0261,
+            "prompt_per_mtok": 0.036,
             "completion_per_mtok": 0.9,
             "curated_upstream": true
           }
@@ -416,7 +427,7 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.06,
+            "prompt_per_mtok": 0.05,
             "completion_per_mtok": 7.0,
             "curated_upstream": true
           },
@@ -584,6 +595,17 @@
             "context_length": 524288,
             "prompt_per_mtok": 0.05,
             "completion_per_mtok": 0.2,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openrouter/pareto-code",
+          "description": "auto-routes to cheapest coder meeting openrouter.min_coding_score",
+          "metadata": {
+            "name": "Pareto Code Router",
+            "context_length": 2000000,
+            "prompt_per_mtok": null,
+            "completion_per_mtok": null,
             "curated_upstream": true
           }
         },
@@ -1017,17 +1039,6 @@
           }
         },
         {
-          "id": "apodex/apodex-1.1-mini:free",
-          "description": "free",
-          "metadata": {
-            "name": "Apodex: Apodex 1.1 Mini (free)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "arcee-ai/trinity-large-thinking",
           "description": "",
           "metadata": {
@@ -1242,8 +1253,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 1.28,
+            "prompt_per_mtok": 0.091,
+            "completion_per_mtok": 0.182,
             "curated_upstream": false
           }
         },
@@ -1545,6 +1556,17 @@
           }
         },
         {
+          "id": "google/gemini-4-argon:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Argon (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "google/gemini-nano-banana-2.1",
           "description": "",
           "metadata": {
@@ -1666,46 +1688,24 @@
           }
         },
         {
-          "id": "inclusionai/ling-3.0-flash-fin",
-          "description": "",
-          "metadata": {
-            "name": "inclusionAI: Ling 3.0 Flash Fin",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.042,
-            "completion_per_mtok": 0.1232,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "inclusionai/ling-3.0-flash-sante",
-          "description": "",
-          "metadata": {
-            "name": "inclusionAI: Ling 3.0 Flash Sante",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.042,
-            "completion_per_mtok": 0.1232,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "inclusionai/ling-3.0-flash-vl",
           "description": "",
           "metadata": {
             "name": "inclusionAI: Ling 3.0 Flash VL",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.021,
-            "completion_per_mtok": 0.0616,
+            "context_length": 131072,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.18,
             "curated_upstream": false
           }
         },
         {
           "id": "inclusionai/ling-3.1-flash",
-          "description": "free",
+          "description": "",
           "metadata": {
             "name": "inclusionAI: Ling 3.1 Flash",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.225,
             "curated_upstream": false
           }
         },
@@ -1717,6 +1717,17 @@
             "context_length": 65536,
             "prompt_per_mtok": 0.0,
             "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "liquid/lfm-2.5-24b-a2b",
+          "description": "",
+          "metadata": {
+            "name": "LiquidAI: LFM2.5-24B-A2B",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.7,
             "curated_upstream": false
           }
         },
@@ -1836,8 +1847,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2",
             "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.255,
+            "completion_per_mtok": 1.02,
             "curated_upstream": false
           }
         },
@@ -3090,8 +3101,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.037,
+            "completion_per_mtok": 0.17,
             "curated_upstream": false
           }
         },
@@ -3563,8 +3574,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-35B-A3B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.75,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -3574,8 +3585,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5 397B A17B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.55,
-            "completion_per_mtok": 3.5,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 3.6,
             "curated_upstream": false
           }
         },
@@ -3866,17 +3877,6 @@
           }
         },
         {
-          "id": "unbiased/pareto",
-          "description": "",
-          "metadata": {
-            "name": "Pareto",
-            "context_length": 262144,
-            "prompt_per_mtok": 2.5,
-            "completion_per_mtok": 7.5,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "unbiased/pareto-26.10-preview",
           "description": "",
           "metadata": {
@@ -3884,6 +3884,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.8,
             "completion_per_mtok": 3.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "unbiased/pareto-26.9",
+          "description": "",
+          "metadata": {
+            "name": "Pareto 26.9",
+            "context_length": 262144,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 7.5,
             "curated_upstream": false
           }
         },
@@ -4069,8 +4080,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.1",
             "context_length": 204800,
-            "prompt_per_mtok": 0.966,
-            "completion_per_mtok": 3.036,
+            "prompt_per_mtok": 1.33,
+            "completion_per_mtok": 4.18,
             "curated_upstream": false
           }
         },
@@ -4168,8 +4179,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0441,
-            "completion_per_mtok": 0.765,
+            "prompt_per_mtok": 0.0202,
+            "completion_per_mtok": 0.891,
             "curated_upstream": false
           }
         },
@@ -4179,8 +4190,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2587,
-            "completion_per_mtok": 0.7762,
+            "prompt_per_mtok": 0.225,
+            "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
         },
@@ -4223,8 +4234,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.73,
-            "completion_per_mtok": 10.0,
+            "prompt_per_mtok": 0.496,
+            "completion_per_mtok": 14.0,
             "curated_upstream": false
           }
         },
@@ -4284,6 +4295,17 @@
           }
         },
         {
+          "id": "~unbiased/pareto-latest",
+          "description": "",
+          "metadata": {
+            "name": "Pareto Latest",
+            "context_length": 262144,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "~x-ai/grok-latest",
           "description": "",
           "metadata": {
@@ -4300,7 +4322,7 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0261,
+            "prompt_per_mtok": 0.036,
             "completion_per_mtok": 0.9,
             "curated_upstream": false
           }
@@ -4311,8 +4333,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.055,
-            "completion_per_mtok": 5.0,
+            "prompt_per_mtok": 0.0576,
+            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         }
