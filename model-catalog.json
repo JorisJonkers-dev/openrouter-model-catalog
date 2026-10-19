@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T09:40:30Z",
+  "updated_at": "2026-10-19T10:50:16Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 400
+        "count": 399
       },
       "models": [
         {
@@ -306,8 +306,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2088,
-            "completion_per_mtok": 0.4176,
+            "prompt_per_mtok": 0.9553,
+            "completion_per_mtok": 1.9105,
             "curated_upstream": true
           }
         },
@@ -328,8 +328,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0648,
-            "completion_per_mtok": 0.144,
+            "prompt_per_mtok": 0.04,
+            "completion_per_mtok": 0.08,
             "curated_upstream": true
           }
         },
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0151,
-            "completion_per_mtok": 0.45,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.15,
             "curated_upstream": true
           }
         },
@@ -383,7 +383,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.304,
+            "prompt_per_mtok": 0.239,
             "completion_per_mtok": 11.936,
             "curated_upstream": true
           }
@@ -406,7 +406,7 @@
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
             "prompt_per_mtok": 0.079,
-            "completion_per_mtok": 2.5,
+            "completion_per_mtok": 1.4,
             "curated_upstream": true
           }
         },
@@ -417,7 +417,7 @@
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
             "prompt_per_mtok": 0.048,
-            "completion_per_mtok": 0.2,
+            "completion_per_mtok": 0.16,
             "curated_upstream": true
           }
         },
@@ -1193,17 +1193,6 @@
           }
         },
         {
-          "id": "deepseek/deepseek-r1",
-          "description": "",
-          "metadata": {
-            "name": "DeepSeek: R1",
-            "context_length": 64000,
-            "prompt_per_mtok": 0.7,
-            "completion_per_mtok": 2.5,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "deepseek/deepseek-r1-0528",
           "description": "",
           "metadata": {
@@ -1616,8 +1605,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0675,
-            "completion_per_mtok": 0.225,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -1791,7 +1780,7 @@
           "description": "",
           "metadata": {
             "name": "Meta: Llama 4 Maverick",
-            "context_length": 1048576,
+            "context_length": 524288,
             "prompt_per_mtok": 0.1875,
             "completion_per_mtok": 0.6525,
             "curated_upstream": false
@@ -3607,8 +3596,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.26,
-            "completion_per_mtok": 2.6,
+            "prompt_per_mtok": 0.27,
+            "completion_per_mtok": 2.16,
             "curated_upstream": false
           }
         },
@@ -4091,8 +4080,8 @@
           "metadata": {
             "name": "Z.ai: GLM 4.6",
             "context_length": 204800,
-            "prompt_per_mtok": 0.5,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.55,
+            "completion_per_mtok": 2.2,
             "curated_upstream": false
           }
         },
@@ -4257,7 +4246,7 @@
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.6,
+            "completion_per_mtok": 0.15,
             "curated_upstream": false
           }
         },
@@ -4267,7 +4256,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.12,
+            "prompt_per_mtok": 0.225,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4278,8 +4267,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0151,
-            "completion_per_mtok": 0.45,
+            "prompt_per_mtok": 0.0039,
+            "completion_per_mtok": 0.12,
             "curated_upstream": false
           }
         },
@@ -4311,8 +4300,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.27,
-            "completion_per_mtok": 14.0,
+            "prompt_per_mtok": 0.238,
+            "completion_per_mtok": 13.0,
             "curated_upstream": false
           }
         },
@@ -4400,7 +4389,7 @@
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.048,
-            "completion_per_mtok": 0.2,
+            "completion_per_mtok": 0.16,
             "curated_upstream": false
           }
         },
@@ -4410,8 +4399,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0632,
-            "completion_per_mtok": 4.4,
+            "prompt_per_mtok": 0.047,
+            "completion_per_mtok": 6.0,
             "curated_upstream": false
           }
         }
