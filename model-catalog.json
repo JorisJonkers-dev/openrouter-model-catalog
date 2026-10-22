@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T10:14:55Z",
+  "updated_at": "2026-10-22T10:16:00Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -328,8 +328,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.049,
-            "completion_per_mtok": 0.375,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": true
           }
         },
@@ -416,8 +416,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0412,
-            "completion_per_mtok": 0.12,
+            "prompt_per_mtok": 0.0052,
+            "completion_per_mtok": 0.193,
             "curated_upstream": true
           }
         },
@@ -1325,17 +1325,6 @@
           }
         },
         {
-          "id": "google/gemini-2.5-flash-lite:batch",
-          "description": "",
-          "metadata": {
-            "name": "Google: Gemini 2.5 Flash Lite (batch)",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "google/gemini-2.5-pro",
           "description": "",
           "metadata": {
@@ -2232,8 +2221,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.7 Code",
             "context_length": 262144,
-            "prompt_per_mtok": 0.6725,
-            "completion_per_mtok": 3.1,
+            "prompt_per_mtok": 0.6712,
+            "completion_per_mtok": 3.35,
             "curated_upstream": false
           }
         },
@@ -3585,8 +3574,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-122B-A10B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.26,
-            "completion_per_mtok": 2.08,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 3.2,
             "curated_upstream": false
           }
         },
@@ -3618,8 +3607,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5 397B A17B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.39,
-            "completion_per_mtok": 2.34,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 3.6,
             "curated_upstream": false
           }
         },
@@ -3796,6 +3785,17 @@
             "context_length": 1000000,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 0.47,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "recursive/flint-v1.0:free",
+          "description": "free",
+          "metadata": {
+            "name": "Recursive: Flint (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
             "curated_upstream": false
           }
         },
@@ -4245,8 +4245,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.049,
-            "completion_per_mtok": 0.375,
+            "prompt_per_mtok": 0.07,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -4256,7 +4256,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.225,
+            "prompt_per_mtok": 0.2235,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4301,7 +4301,7 @@
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.238,
-            "completion_per_mtok": 24.0,
+            "completion_per_mtok": 16.0,
             "curated_upstream": false
           }
         },
@@ -4388,8 +4388,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0412,
-            "completion_per_mtok": 0.12,
+            "prompt_per_mtok": 0.0052,
+            "completion_per_mtok": 0.193,
             "curated_upstream": false
           }
         },
