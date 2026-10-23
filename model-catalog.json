@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T10:16:00Z",
+  "updated_at": "2026-10-23T10:09:04Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -417,7 +417,7 @@
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
             "prompt_per_mtok": 0.0052,
-            "completion_per_mtok": 0.193,
+            "completion_per_mtok": 0.1985,
             "curated_upstream": true
           }
         },
@@ -1875,13 +1875,13 @@
           }
         },
         {
-          "id": "minimax/minimax-m3.1-flash:free",
-          "description": "free",
+          "id": "minimax/minimax-m3.1-flash",
+          "description": "",
           "metadata": {
-            "name": "MiniMax: MiniMax M3.1 Flash (free)",
-            "context_length": 1000000,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
+            "name": "MiniMax: MiniMax M3.1 Flash",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -2133,8 +2133,8 @@
           "metadata": {
             "name": "Mistral: Mistral Small 3.2 24B",
             "context_length": 256000,
-            "prompt_per_mtok": 0.0938,
-            "completion_per_mtok": 0.25,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.2,
             "curated_upstream": false
           }
         },
@@ -3618,8 +3618,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-9B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.13,
+            "prompt_per_mtok": 0.17,
+            "completion_per_mtok": 0.25,
             "curated_upstream": false
           }
         },
@@ -3761,8 +3761,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
             "context_length": 1000000,
-            "prompt_per_mtok": 0.04,
-            "completion_per_mtok": 1.35,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 2.5,
             "curated_upstream": false
           }
         },
@@ -3805,7 +3805,7 @@
           "metadata": {
             "name": "Reflection: Beam 1.0 501B A23B",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.3,
+            "prompt_per_mtok": 0.25,
             "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
@@ -4256,7 +4256,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2235,
+            "prompt_per_mtok": 0.2565,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4389,7 +4389,7 @@
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.0052,
-            "completion_per_mtok": 0.193,
+            "completion_per_mtok": 0.1985,
             "curated_upstream": false
           }
         },
