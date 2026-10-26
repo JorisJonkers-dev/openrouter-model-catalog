@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-25T09:51:30Z",
+  "updated_at": "2026-10-26T11:10:53Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -306,8 +306,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2088,
-            "completion_per_mtok": 0.4176,
+            "prompt_per_mtok": 0.9553,
+            "completion_per_mtok": 1.9105,
             "curated_upstream": true
           }
         },
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0422,
-            "completion_per_mtok": 0.1694,
+            "prompt_per_mtok": 0.44,
+            "completion_per_mtok": 1.32,
             "curated_upstream": true
           }
         },
@@ -383,8 +383,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.239,
-            "completion_per_mtok": 10.8,
+            "prompt_per_mtok": 0.226,
+            "completion_per_mtok": 20.0,
             "curated_upstream": true
           }
         },
@@ -401,14 +401,15 @@
         },
         {
           "id": "z-ai/glm-5.3",
-          "description": "",
+          "description": "default",
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.079,
+            "prompt_per_mtok": 0.0699,
             "completion_per_mtok": 1.4,
             "curated_upstream": true
-          }
+          },
+          "default": true
         },
         {
           "id": "z-ai/glm-5.3-flash",
@@ -434,15 +435,14 @@
         },
         {
           "id": "z-ai/glm-5.2",
-          "description": "default",
+          "description": "",
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
             "prompt_per_mtok": 0.0341,
             "completion_per_mtok": 7.0,
             "curated_upstream": true
-          },
-          "default": true
+          }
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
@@ -1572,8 +1572,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0675,
-            "completion_per_mtok": 0.225,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -3442,7 +3442,7 @@
           "metadata": {
             "name": "Qwen: Qwen3 30B A3B Instruct 2507",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
+            "prompt_per_mtok": 0.1,
             "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
@@ -3574,8 +3574,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-122B-A10B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.4,
-            "completion_per_mtok": 3.2,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 2.08,
             "curated_upstream": false
           }
         },
@@ -3662,8 +3662,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.6 27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.25,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.32,
+            "completion_per_mtok": 3.2,
             "curated_upstream": false
           }
         },
@@ -4256,7 +4256,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1188,
+            "prompt_per_mtok": 0.2565,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4267,8 +4267,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0422,
-            "completion_per_mtok": 0.1694,
+            "prompt_per_mtok": 0.0475,
+            "completion_per_mtok": 0.1568,
             "curated_upstream": false
           }
         },
@@ -4300,8 +4300,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 16.0,
+            "prompt_per_mtok": 0.226,
+            "completion_per_mtok": 20.0,
             "curated_upstream": false
           }
         },
@@ -4388,8 +4388,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0513,
-            "completion_per_mtok": 0.0701,
+            "prompt_per_mtok": 0.0413,
+            "completion_per_mtok": 0.0758,
             "curated_upstream": false
           }
         },
@@ -4399,8 +4399,8 @@
           "metadata": {
             "name": "Z.ai: GLM Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0703,
-            "completion_per_mtok": 4.3843,
+            "prompt_per_mtok": 0.0699,
+            "completion_per_mtok": 1.4,
             "curated_upstream": false
           }
         }
