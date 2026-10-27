@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T11:10:53Z",
+  "updated_at": "2026-10-27T10:38:55Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 399
+        "count": 396
       },
       "models": [
         {
@@ -154,6 +154,17 @@
             "context_length": 1050000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 10.0,
+            "curated_upstream": true
+          }
+        },
+        {
+          "id": "openai/gpt-6.1-terra",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Terra",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
             "curated_upstream": true
           }
         },
@@ -328,8 +339,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.02,
-            "completion_per_mtok": 1.0,
+            "prompt_per_mtok": 0.14,
+            "completion_per_mtok": 0.42,
             "curated_upstream": true
           }
         },
@@ -350,8 +361,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.44,
-            "completion_per_mtok": 1.32,
+            "prompt_per_mtok": 0.119,
+            "completion_per_mtok": 0.238,
             "curated_upstream": true
           }
         },
@@ -383,8 +394,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.226,
-            "completion_per_mtok": 20.0,
+            "prompt_per_mtok": 0.179,
+            "completion_per_mtok": 11.5,
             "curated_upstream": true
           }
         },
@@ -483,8 +494,8 @@
           "metadata": {
             "name": "Xiaomi: MiMo-V2.5-Pro",
             "context_length": 1050000,
-            "prompt_per_mtok": 0.3045,
-            "completion_per_mtok": 0.609,
+            "prompt_per_mtok": 0.48,
+            "completion_per_mtok": 1.8,
             "curated_upstream": true
           }
         },
@@ -658,17 +669,6 @@
           "description": "free",
           "metadata": {
             "name": "Poolside: Laguna XS 2.1 (free)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": true
-          }
-        },
-        {
-          "id": "nvidia/nemotron-3-super-120b-a12b:free",
-          "description": "free",
-          "metadata": {
-            "name": "NVIDIA: Nemotron 3 Super (free)",
             "context_length": 262144,
             "prompt_per_mtok": 0.0,
             "completion_per_mtok": 0.0,
@@ -1039,17 +1039,6 @@
           }
         },
         {
-          "id": "arcee-ai/trinity-large-thinking",
-          "description": "",
-          "metadata": {
-            "name": "Arcee AI: Trinity Large Thinking",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.25,
-            "completion_per_mtok": 0.8,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "bytedance-seed/seed-1.6",
           "description": "",
           "metadata": {
@@ -1242,8 +1231,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.091,
-            "completion_per_mtok": 0.182,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.45,
             "curated_upstream": false
           }
         },
@@ -1908,17 +1897,6 @@
           }
         },
         {
-          "id": "mistralai/codestral-2508:batch",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Codestral 2508 (batch)",
-            "context_length": 256000,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.45,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "mistralai/devstral-2512",
           "description": "",
           "metadata": {
@@ -1963,17 +1941,6 @@
           }
         },
         {
-          "id": "mistralai/ministral-8b-2512:batch",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Ministral 3 8B 2512 (batch)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.075,
-            "completion_per_mtok": 0.075,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "mistralai/mistral-large",
           "description": "",
           "metadata": {
@@ -2003,17 +1970,6 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.5,
             "completion_per_mtok": 1.5,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "mistralai/mistral-large-2512:batch",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Mistral Large 3 2512 (batch)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.25,
-            "completion_per_mtok": 0.75,
             "curated_upstream": false
           }
         },
@@ -2073,17 +2029,6 @@
           }
         },
         {
-          "id": "mistralai/mistral-medium-3.1:batch",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Mistral Medium 3.1 (batch)",
-            "context_length": 131072,
-            "prompt_per_mtok": 0.2,
-            "completion_per_mtok": 1.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "mistralai/mistral-nemo",
           "description": "",
           "metadata": {
@@ -2113,17 +2058,6 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 0.6,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "mistralai/mistral-small-2603:batch",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Mistral Small 4 (batch)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.075,
-            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -2232,8 +2166,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.7 Code",
             "context_length": 262144,
-            "prompt_per_mtok": 0.6712,
-            "completion_per_mtok": 3.35,
+            "prompt_per_mtok": 0.56,
+            "completion_per_mtok": 3.1,
             "curated_upstream": false
           }
         },
@@ -3085,6 +3019,39 @@
           }
         },
         {
+          "id": "openai/gpt-6.1-terra-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Terra Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.1-terra-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.1-terra:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.1 Terra (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "openai/gpt-audio",
           "description": "",
           "metadata": {
@@ -3585,8 +3552,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.27,
-            "completion_per_mtok": 2.16,
+            "prompt_per_mtok": 0.26,
+            "completion_per_mtok": 2.6,
             "curated_upstream": false
           }
         },
@@ -4025,8 +3992,8 @@
           "metadata": {
             "name": "Xiaomi: MiMo-V2.5",
             "context_length": 1050000,
-            "prompt_per_mtok": 0.119,
-            "completion_per_mtok": 0.238,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 2.0,
             "curated_upstream": false
           }
         },
@@ -4146,8 +4113,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.1",
             "context_length": 204800,
-            "prompt_per_mtok": 1.4,
-            "completion_per_mtok": 4.4,
+            "prompt_per_mtok": 0.966,
+            "completion_per_mtok": 3.036,
             "curated_upstream": false
           }
         },
@@ -4256,7 +4223,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2565,
+            "prompt_per_mtok": 0.2428,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4300,8 +4267,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.226,
-            "completion_per_mtok": 20.0,
+            "prompt_per_mtok": 0.17,
+            "completion_per_mtok": 9.7224,
             "curated_upstream": false
           }
         },
@@ -4355,8 +4322,8 @@
           "metadata": {
             "name": "OpenAI: GPT Terra Latest",
             "context_length": 1050000,
-            "prompt_per_mtok": 2.0,
-            "completion_per_mtok": 12.0,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
             "curated_upstream": false
           }
         },
@@ -4388,8 +4355,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0413,
-            "completion_per_mtok": 0.0758,
+            "prompt_per_mtok": 0.0285,
+            "completion_per_mtok": 0.0923,
             "curated_upstream": false
           }
         },
