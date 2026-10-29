@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T11:23:30Z",
+  "updated_at": "2026-10-29T11:33:54Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 397
+        "count": 391
       },
       "models": [
         {
@@ -339,8 +339,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.14,
-            "completion_per_mtok": 0.42,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.5,
             "curated_upstream": true
           }
         },
@@ -394,8 +394,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.159,
-            "completion_per_mtok": 20.0,
+            "prompt_per_mtok": 0.239,
+            "completion_per_mtok": 10.8,
             "curated_upstream": true
           }
         },
@@ -428,8 +428,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.0457,
+            "completion_per_mtok": 0.0742,
             "curated_upstream": true
           }
         },
@@ -450,7 +450,7 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.014,
+            "prompt_per_mtok": 0.006,
             "completion_per_mtok": 7.0,
             "curated_upstream": true
           }
@@ -537,7 +537,7 @@
           "description": "",
           "metadata": {
             "name": "NVIDIA: Nemotron 3 Super",
-            "context_length": 262144,
+            "context_length": 1048576,
             "prompt_per_mtok": 0.3,
             "completion_per_mtok": 2.4,
             "curated_upstream": true
@@ -1606,7 +1606,7 @@
             "name": "IBM: Granite 4.2 8B",
             "context_length": 131072,
             "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 0.25,
+            "completion_per_mtok": 0.15,
             "curated_upstream": false
           }
         },
@@ -1737,8 +1737,8 @@
           "metadata": {
             "name": "Meta: Llama 3.1 8B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.02,
-            "completion_per_mtok": 0.04,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.08,
             "curated_upstream": false
           }
         },
@@ -2166,7 +2166,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.7 Code",
             "context_length": 262144,
-            "prompt_per_mtok": 0.6725,
+            "prompt_per_mtok": 0.56,
             "completion_per_mtok": 3.1,
             "curated_upstream": false
           }
@@ -2300,17 +2300,6 @@
             "context_length": 8191,
             "prompt_per_mtok": 30.0,
             "completion_per_mtok": 60.0,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "openai/gpt-4-turbo",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: GPT-4 Turbo",
-            "context_length": 128000,
-            "prompt_per_mtok": 10.0,
-            "completion_per_mtok": 30.0,
             "curated_upstream": false
           }
         },
@@ -3140,17 +3129,6 @@
           }
         },
         {
-          "id": "openai/o1",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: o1",
-            "context_length": 200000,
-            "prompt_per_mtok": 15.0,
-            "completion_per_mtok": 60.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "openai/o3",
           "description": "",
           "metadata": {
@@ -3158,28 +3136,6 @@
             "context_length": 200000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 8.0,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "openai/o3-mini",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: o3 Mini",
-            "context_length": 200000,
-            "prompt_per_mtok": 1.1,
-            "completion_per_mtok": 4.4,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "openai/o3-mini-high",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: o3 Mini High",
-            "context_length": 200000,
-            "prompt_per_mtok": 1.1,
-            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         },
@@ -3213,28 +3169,6 @@
             "context_length": 200000,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 4.0,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "openai/o4-mini",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: o4 Mini",
-            "context_length": 200000,
-            "prompt_per_mtok": 1.1,
-            "completion_per_mtok": 4.4,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "openai/o4-mini-high",
-          "description": "",
-          "metadata": {
-            "name": "OpenAI: o4 Mini High",
-            "context_length": 200000,
-            "prompt_per_mtok": 1.1,
-            "completion_per_mtok": 4.4,
             "curated_upstream": false
           }
         },
@@ -3279,6 +3213,17 @@
             "context_length": 200000,
             "prompt_per_mtok": 0.0,
             "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "particle-ai/particle-1",
+          "description": "",
+          "metadata": {
+            "name": "Particle AI: Particle-1",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -3488,17 +3433,6 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.09,
             "completion_per_mtok": 1.1,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "qwen/qwen3-next-80b-a3b-thinking",
-          "description": "",
-          "metadata": {
-            "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -3859,7 +3793,7 @@
           "description": "",
           "metadata": {
             "name": "StepFun: Step 5 Preview",
-            "context_length": 1048576,
+            "context_length": 1000000,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 2.7,
             "curated_upstream": false
@@ -4058,8 +3992,8 @@
           "metadata": {
             "name": "Z.ai: GLM 4.6",
             "context_length": 204800,
-            "prompt_per_mtok": 0.55,
-            "completion_per_mtok": 2.2,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.0,
             "curated_upstream": false
           }
         },
@@ -4223,7 +4157,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0126,
+            "prompt_per_mtok": 0.0212,
             "completion_per_mtok": 1.8,
             "curated_upstream": false
           }
@@ -4234,7 +4168,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2542,
+            "prompt_per_mtok": 0.1035,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4245,8 +4179,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0475,
-            "completion_per_mtok": 0.1568,
+            "prompt_per_mtok": 0.057,
+            "completion_per_mtok": 0.1341,
             "curated_upstream": false
           }
         },
@@ -4278,8 +4212,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.159,
-            "completion_per_mtok": 20.0,
+            "prompt_per_mtok": 0.1824,
+            "completion_per_mtok": 9.3388,
             "curated_upstream": false
           }
         },
@@ -4366,8 +4300,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0197,
-            "completion_per_mtok": 0.1238,
+            "prompt_per_mtok": 0.0457,
+            "completion_per_mtok": 0.0742,
             "curated_upstream": false
           }
         },
