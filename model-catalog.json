@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T11:52:47Z",
+  "updated_at": "2026-11-02T13:34:20Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -1539,8 +1539,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.0675,
-            "completion_per_mtok": 0.225,
+            "prompt_per_mtok": 0.063,
+            "completion_per_mtok": 0.188,
             "curated_upstream": false
           }
         },
@@ -3057,8 +3057,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.018,
-            "completion_per_mtok": 0.067,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -3628,7 +3628,7 @@
           "description": "",
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
-            "context_length": 1000000,
+            "context_length": 1024000,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 1.875,
             "curated_upstream": false
@@ -4124,7 +4124,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0434,
+            "prompt_per_mtok": 0.059,
             "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
