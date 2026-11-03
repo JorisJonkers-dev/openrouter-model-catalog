@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T13:34:20Z",
+  "updated_at": "2026-11-03T12:50:30Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 386
+        "count": 387
       },
       "models": [
         {
@@ -361,8 +361,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.119,
-            "completion_per_mtok": 0.238,
+            "prompt_per_mtok": 0.059,
+            "completion_per_mtok": 0.3,
             "curated_upstream": true
           }
         },
@@ -428,8 +428,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0285,
-            "completion_per_mtok": 0.0923,
+            "prompt_per_mtok": 0.0313,
+            "completion_per_mtok": 0.0846,
             "curated_upstream": true
           }
         },
@@ -1539,8 +1539,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.063,
-            "completion_per_mtok": 0.188,
+            "prompt_per_mtok": 0.081,
+            "completion_per_mtok": 0.242,
             "curated_upstream": false
           }
         },
@@ -1704,8 +1704,8 @@
           "metadata": {
             "name": "Meta: Llama 3.1 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.4,
-            "completion_per_mtok": 0.4,
+            "prompt_per_mtok": 0.72,
+            "completion_per_mtok": 0.72,
             "curated_upstream": false
           }
         },
@@ -1726,8 +1726,8 @@
           "metadata": {
             "name": "Meta: Llama 3.3 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.32,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.52,
             "curated_upstream": false
           }
         },
@@ -3354,8 +3354,8 @@
           "metadata": {
             "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.07,
-            "completion_per_mtok": 0.28,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -3387,7 +3387,7 @@
           "metadata": {
             "name": "Qwen: Qwen3 Next 80B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
+            "prompt_per_mtok": 0.1,
             "completion_per_mtok": 1.1,
             "curated_upstream": false
           }
@@ -4020,6 +4020,17 @@
           }
         },
         {
+          "id": "z-ai/glm-5.3-flashx-legal",
+          "description": "",
+          "metadata": {
+            "name": "Z.ai: GLM 5.3 FlashX Legal",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.37,
+            "completion_per_mtok": 1.25,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "z-ai/glm-5.3-prime",
           "description": "",
           "metadata": {
@@ -4103,7 +4114,7 @@
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.035,
-            "completion_per_mtok": 0.5,
+            "completion_per_mtok": 0.315,
             "curated_upstream": false
           }
         },
@@ -4157,8 +4168,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1495,
-            "completion_per_mtok": 7.15,
+            "prompt_per_mtok": 0.1719,
+            "completion_per_mtok": 10.5572,
             "curated_upstream": false
           }
         },
@@ -4245,8 +4256,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0285,
-            "completion_per_mtok": 0.0923,
+            "prompt_per_mtok": 0.0313,
+            "completion_per_mtok": 0.0846,
             "curated_upstream": false
           }
         },
