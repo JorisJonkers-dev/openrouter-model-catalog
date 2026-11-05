@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T13:01:53Z",
+  "updated_at": "2026-11-05T13:15:29Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 390
+        "count": 389
       },
       "models": [
         {
@@ -328,8 +328,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0813",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.115,
-            "completion_per_mtok": 4.6,
+            "prompt_per_mtok": 0.103,
+            "completion_per_mtok": 4.11,
             "curated_upstream": true
           }
         },
@@ -416,8 +416,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 3.6,
+            "prompt_per_mtok": 0.0699,
+            "completion_per_mtok": 1.4,
             "curated_upstream": true
           },
           "default": true
@@ -428,8 +428,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0269,
-            "completion_per_mtok": 0.0996,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.5,
             "curated_upstream": true
           }
         },
@@ -628,28 +628,6 @@
             "context_length": 2000000,
             "prompt_per_mtok": null,
             "completion_per_mtok": null,
-            "curated_upstream": true
-          }
-        },
-        {
-          "id": "thinkingmachines/inkling:free",
-          "description": "free",
-          "metadata": {
-            "name": "Thinking Machines: Inkling (free)",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": true
-          }
-        },
-        {
-          "id": "thinkingmachines/inkling-small:free",
-          "description": "free",
-          "metadata": {
-            "name": "Thinking Machines: Inkling Small (free)",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
             "curated_upstream": true
           }
         },
@@ -1231,8 +1209,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.15,
+            "prompt_per_mtok": 0.112,
+            "completion_per_mtok": 0.336,
             "curated_upstream": false
           }
         },
@@ -1539,8 +1517,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.092,
-            "completion_per_mtok": 0.276,
+            "prompt_per_mtok": 0.039,
+            "completion_per_mtok": 0.118,
             "curated_upstream": false
           }
         },
@@ -1644,6 +1622,17 @@
           }
         },
         {
+          "id": "inclusionai/ling-3.0-tiny",
+          "description": "",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.0 Tiny",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.015,
+            "completion_per_mtok": 0.045,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "inclusionai/ling-3.1-flash",
           "description": "",
           "metadata": {
@@ -1715,8 +1704,8 @@
           "metadata": {
             "name": "Meta: Llama 3.3 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.32,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.52,
             "curated_upstream": false
           }
         },
@@ -1726,8 +1715,8 @@
           "metadata": {
             "name": "Meta: Llama 4 Maverick",
             "context_length": 524288,
-            "prompt_per_mtok": 0.1875,
-            "completion_per_mtok": 0.6525,
+            "prompt_per_mtok": 0.35,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -1798,28 +1787,6 @@
           }
         },
         {
-          "id": "minimax/minimax-m2",
-          "description": "",
-          "metadata": {
-            "name": "MiniMax: MiniMax M2",
-            "context_length": 204800,
-            "prompt_per_mtok": 0.255,
-            "completion_per_mtok": 1.02,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "minimax/minimax-m2.1",
-          "description": "",
-          "metadata": {
-            "name": "MiniMax: MiniMax M2.1",
-            "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "minimax/minimax-m2.5",
           "description": "",
           "metadata": {
@@ -1836,8 +1803,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2.7",
             "context_length": 204800,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.21,
+            "completion_per_mtok": 0.84,
             "curated_upstream": false
           }
         },
@@ -3046,8 +3013,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.024,
-            "completion_per_mtok": 0.087,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -3166,6 +3133,17 @@
           "description": "",
           "metadata": {
             "name": "Auto Router (Beta)",
+            "context_length": 2000000,
+            "prompt_per_mtok": null,
+            "completion_per_mtok": null,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openrouter/auto-code",
+          "description": "",
+          "metadata": {
+            "name": "Auto Code",
             "context_length": 2000000,
             "prompt_per_mtok": null,
             "completion_per_mtok": null,
@@ -3376,7 +3354,7 @@
           "metadata": {
             "name": "Qwen: Qwen3 Next 80B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.1,
+            "prompt_per_mtok": 0.09,
             "completion_per_mtok": 1.1,
             "curated_upstream": false
           }
@@ -3686,6 +3664,17 @@
             "context_length": 256000,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 3.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "ricursiveai/ripple-65b-preview",
+          "description": "",
+          "metadata": {
+            "name": "ricursiveAI/Ripple-65B-Preview",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.6,
             "curated_upstream": false
           }
         },
@@ -4146,8 +4135,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.032,
-            "completion_per_mtok": 0.288,
+            "prompt_per_mtok": 0.006,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -4157,7 +4146,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1035,
+            "prompt_per_mtok": 0.0927,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4169,7 +4158,7 @@
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.059,
-            "completion_per_mtok": 0.3,
+            "completion_per_mtok": 0.1769,
             "curated_upstream": false
           }
         },
@@ -4201,8 +4190,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1824,
-            "completion_per_mtok": 10.1583,
+            "prompt_per_mtok": 0.1567,
+            "completion_per_mtok": 10.5448,
             "curated_upstream": false
           }
         },
@@ -4289,8 +4278,8 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0269,
-            "completion_per_mtok": 0.0996,
+            "prompt_per_mtok": 0.0285,
+            "completion_per_mtok": 0.0923,
             "curated_upstream": false
           }
         },
