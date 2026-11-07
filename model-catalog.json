@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T12:59:28Z",
+  "updated_at": "2026-11-07T11:45:45Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 389
+        "count": 398
       },
       "models": [
         {
@@ -317,8 +317,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.8973,
-            "completion_per_mtok": 1.7946,
+            "prompt_per_mtok": 0.7484,
+            "completion_per_mtok": 1.4967,
             "curated_upstream": true
           }
         },
@@ -361,7 +361,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.059,
+            "prompt_per_mtok": 0.0487,
             "completion_per_mtok": 0.3,
             "curated_upstream": true
           }
@@ -1061,6 +1061,17 @@
           }
         },
         {
+          "id": "cohere/command-a",
+          "description": "",
+          "metadata": {
+            "name": "Cohere: Command A",
+            "context_length": 256000,
+            "prompt_per_mtok": 2.5,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "cohere/command-a-plus",
           "description": "",
           "metadata": {
@@ -1090,6 +1101,17 @@
             "context_length": 128000,
             "prompt_per_mtok": 2.5,
             "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "cohere/command-r7b-12-2024",
+          "description": "",
+          "metadata": {
+            "name": "Cohere: Command R7B (12-2024)",
+            "context_length": 128000,
+            "prompt_per_mtok": 0.0375,
+            "completion_per_mtok": 0.15,
             "curated_upstream": false
           }
         },
@@ -1189,6 +1211,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.091,
             "completion_per_mtok": 0.182,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash-0731:batch",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.048,
+            "completion_per_mtok": 0.144,
             "curated_upstream": false
           }
         },
@@ -1517,8 +1550,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.0675,
+            "completion_per_mtok": 0.225,
             "curated_upstream": false
           }
         },
@@ -1638,8 +1671,8 @@
           "metadata": {
             "name": "inclusionAI: Ling 3.1 Flash",
             "context_length": 1000000,
-            "prompt_per_mtok": 0.075,
-            "completion_per_mtok": 0.225,
+            "prompt_per_mtok": 0.045,
+            "completion_per_mtok": 0.135,
             "curated_upstream": false
           }
         },
@@ -1673,6 +1706,28 @@
             "context_length": 128000,
             "prompt_per_mtok": 0.05,
             "completion_per_mtok": 0.7,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "liquid/lfm-3-1.7b",
+          "description": "",
+          "metadata": {
+            "name": "LiquidAI: LFM3-1.7B",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.08,
+            "completion_per_mtok": 0.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "liquid/lfm-3-1.7b:free",
+          "description": "free",
+          "metadata": {
+            "name": "LiquidAI: LFM3-1.7B (free)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
             "curated_upstream": false
           }
         },
@@ -1743,6 +1798,17 @@
           }
         },
         {
+          "id": "meta/muse-glimmer-30b:batch",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Muse Glimmer 30B (batch)",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.24,
+            "completion_per_mtok": 0.96,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "meta/muse-spark-1.1",
           "description": "",
           "metadata": {
@@ -1792,8 +1858,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2.5",
             "context_length": 204800,
-            "prompt_per_mtok": 0.27,
-            "completion_per_mtok": 0.95,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -1816,6 +1882,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "minimax/minimax-m3:batch",
+          "description": "",
+          "metadata": {
+            "name": "MiniMax: MiniMax M3 (batch)",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.224,
+            "completion_per_mtok": 0.88,
             "curated_upstream": false
           }
         },
@@ -3013,8 +3090,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.016,
+            "completion_per_mtok": 0.059,
             "curated_upstream": false
           }
         },
@@ -3602,6 +3679,17 @@
           }
         },
         {
+          "id": "qwen/qwen3.8-27b:batch",
+          "description": "",
+          "metadata": {
+            "name": "Qwen: Qwen3.8 27B (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.16,
+            "completion_per_mtok": 2.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "qwen/qwen3.8-max-prime",
           "description": "",
           "metadata": {
@@ -3671,7 +3759,7 @@
           "id": "ricursiveai/ripple-65b-preview",
           "description": "",
           "metadata": {
-            "name": "ricursiveAI/Ripple-65B-Preview",
+            "name": "Ricursive: Ripple 65B Preview",
             "context_length": 1048576,
             "prompt_per_mtok": 0.2,
             "completion_per_mtok": 0.6,
@@ -3785,6 +3873,17 @@
             "context_length": 524288,
             "prompt_per_mtok": 0.45,
             "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling-small:batch",
+          "description": "",
+          "metadata": {
+            "name": "Thinking Machines: Inkling Small (batch)",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.36,
+            "completion_per_mtok": 0.96,
             "curated_upstream": false
           }
         },
@@ -4157,7 +4256,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.059,
+            "prompt_per_mtok": 0.0487,
             "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
@@ -4190,8 +4289,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1824,
-            "completion_per_mtok": 10.1522,
+            "prompt_per_mtok": 0.1539,
+            "completion_per_mtok": 10.1489,
             "curated_upstream": false
           }
         },
@@ -4278,7 +4377,7 @@
           "metadata": {
             "name": "Z.ai: GLM Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0284,
+            "prompt_per_mtok": 0.0285,
             "completion_per_mtok": 0.0923,
             "curated_upstream": false
           }
