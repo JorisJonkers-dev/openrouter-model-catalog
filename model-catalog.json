@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T13:31:11Z",
+  "updated_at": "2026-11-11T12:45:34Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 401
+        "count": 403
       },
       "models": [
         {
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.006,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.051,
+            "completion_per_mtok": 0.567,
             "curated_upstream": true
           }
         },
@@ -439,8 +439,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.0399,
+            "completion_per_mtok": 0.0784,
             "curated_upstream": true
           }
         },
@@ -461,7 +461,7 @@
           "metadata": {
             "name": "Z.ai: GLM 5.2",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.01,
+            "prompt_per_mtok": 0.007,
             "completion_per_mtok": 6.8,
             "curated_upstream": true
           }
@@ -548,7 +548,7 @@
           "description": "",
           "metadata": {
             "name": "NVIDIA: Nemotron 3 Super",
-            "context_length": 1048576,
+            "context_length": 262144,
             "prompt_per_mtok": 0.075,
             "completion_per_mtok": 0.4,
             "curated_upstream": true
@@ -1017,6 +1017,28 @@
           }
         },
         {
+          "id": "baidu/ernie-5.5-flash-preview:free",
+          "description": "free",
+          "metadata": {
+            "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+            "context_length": 1024000,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "baidu/ernie-light-dt-1.0-intl",
+          "description": "",
+          "metadata": {
+            "name": "Baidu: ERNIE-Light-DT-1.0",
+            "context_length": 1024000,
+            "prompt_per_mtok": 1.13,
+            "completion_per_mtok": 3.94,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "bytedance-seed/seed-1.6",
           "description": "",
           "metadata": {
@@ -1231,8 +1253,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.091,
-            "completion_per_mtok": 0.182,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.18,
             "curated_upstream": false
           }
         },
@@ -1538,6 +1560,28 @@
           "description": "",
           "metadata": {
             "name": "Google: Gemini 4 Argon (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-4-carbon",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Carbon",
+            "context_length": 1048576,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-4-carbon:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Carbon (batch)",
             "context_length": 1048576,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 5.0,
@@ -1858,8 +1902,8 @@
           "metadata": {
             "name": "MiniMax: MiniMax M2.5",
             "context_length": 200000,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.27,
+            "completion_per_mtok": 1.08,
             "curated_upstream": false
           }
         },
@@ -3305,17 +3349,6 @@
           }
         },
         {
-          "id": "qwen/qwen-2.5-7b-instruct",
-          "description": "",
-          "metadata": {
-            "name": "Qwen: Qwen2.5 7B Instruct",
-            "context_length": 32768,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "qwen/qwen-plus",
           "description": "",
           "metadata": {
@@ -4031,17 +4064,6 @@
           }
         },
         {
-          "id": "xingchen-agi/xing4.0-29b-a4b:free",
-          "description": "free",
-          "metadata": {
-            "name": "XingChen: Xing4.0 29B A4B (free)",
-            "context_length": 262144,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "z-ai/glm-4.5",
           "description": "",
           "metadata": {
@@ -4146,8 +4168,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.1",
             "context_length": 204800,
-            "prompt_per_mtok": 1.4,
-            "completion_per_mtok": 4.4,
+            "prompt_per_mtok": 1.33,
+            "completion_per_mtok": 4.18,
             "curated_upstream": false
           }
         },
@@ -4168,7 +4190,7 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.03,
+            "prompt_per_mtok": 0.047,
             "completion_per_mtok": 0.061,
             "curated_upstream": false
           }
@@ -4323,7 +4345,7 @@
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
             "prompt_per_mtok": 0.1824,
-            "completion_per_mtok": 9.3388,
+            "completion_per_mtok": 11.0055,
             "curated_upstream": false
           }
         },
