@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T13:48:36Z",
+  "updated_at": "2026-11-13T13:10:16Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 401
+        "count": 405
       },
       "models": [
         {
@@ -328,8 +328,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.8923,
-            "completion_per_mtok": 1.7845,
+            "prompt_per_mtok": 0.9,
+            "completion_per_mtok": 1.5,
             "curated_upstream": true
           }
         },
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.022,
-            "completion_per_mtok": 0.4,
+            "prompt_per_mtok": 0.0507,
+            "completion_per_mtok": 0.2028,
             "curated_upstream": true
           }
         },
@@ -361,8 +361,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.038,
+            "completion_per_mtok": 0.5,
             "curated_upstream": true
           }
         },
@@ -427,8 +427,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0699,
-            "completion_per_mtok": 1.4,
+            "prompt_per_mtok": 0.084,
+            "completion_per_mtok": 3.6,
             "curated_upstream": true
           },
           "default": true
@@ -505,8 +505,8 @@
           "metadata": {
             "name": "Xiaomi: MiMo-V2.5-Pro",
             "context_length": 1024000,
-            "prompt_per_mtok": 0.48,
-            "completion_per_mtok": 1.8,
+            "prompt_per_mtok": 0.435,
+            "completion_per_mtok": 0.87,
             "curated_upstream": true
           }
         },
@@ -1248,17 +1248,6 @@
           }
         },
         {
-          "id": "deepseek/deepseek-v4.1-flash-1017:batch",
-          "description": "",
-          "metadata": {
-            "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.011,
-            "completion_per_mtok": 0.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "deepseek/deepseek-v4.1-flash:batch",
           "description": "",
           "metadata": {
@@ -1556,6 +1545,28 @@
           }
         },
         {
+          "id": "google/gemini-4-hydrogen",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Hydrogen",
+            "context_length": 1048576,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 7.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "google/gemini-4-hydrogen:batch",
+          "description": "",
+          "metadata": {
+            "name": "Google: Gemini 4 Hydrogen (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.75,
+            "completion_per_mtok": 3.75,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "google/gemini-nano-banana-2.1",
           "description": "",
           "metadata": {
@@ -1594,8 +1605,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.1,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -1639,7 +1650,7 @@
             "name": "IBM: Granite 4.2 8B",
             "context_length": 131072,
             "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 0.15,
+            "completion_per_mtok": 0.25,
             "curated_upstream": false
           }
         },
@@ -1688,24 +1699,13 @@
           }
         },
         {
-          "id": "liquid/lfm-2.5-2.6b",
+          "id": "kt/midm-k-3.0-pro",
           "description": "",
           "metadata": {
-            "name": "LiquidAI: LFM2.5-2.6B",
-            "context_length": 128000,
-            "prompt_per_mtok": 0.35,
-            "completion_per_mtok": 0.5,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "liquid/lfm-2.5-2.6b:free",
-          "description": "free",
-          "metadata": {
-            "name": "LiquidAI: LFM2.5-2.6B (free)",
-            "context_length": 65536,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
+            "name": "KT: Mi:dm K 3.0 Pro",
+            "context_length": 261795,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 0.8,
             "curated_upstream": false
           }
         },
@@ -1750,6 +1750,17 @@
             "context_length": 1048756,
             "prompt_per_mtok": 0.3,
             "completion_per_mtok": 1.2,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "meta-llama/llama-3.1-70b-instruct",
+          "description": "",
+          "metadata": {
+            "name": "Meta: Llama 3.1 70B Instruct",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.72,
+            "completion_per_mtok": 0.72,
             "curated_upstream": false
           }
         },
@@ -1868,9 +1879,9 @@
           "description": "",
           "metadata": {
             "name": "MiniMax: MiniMax M2.5",
-            "context_length": 200000,
+            "context_length": 198000,
             "prompt_per_mtok": 0.27,
-            "completion_per_mtok": 1.08,
+            "completion_per_mtok": 0.95,
             "curated_upstream": false
           }
         },
@@ -2166,8 +2177,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.5",
             "context_length": 262144,
-            "prompt_per_mtok": 0.532,
-            "completion_per_mtok": 3.325,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 2.5,
             "curated_upstream": false
           }
         },
@@ -2199,8 +2210,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3.1 Pro",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2375,
-            "completion_per_mtok": 8.7856,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
             "curated_upstream": false
           }
         },
@@ -2212,6 +2223,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 2.28,
             "completion_per_mtok": 11.4,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "motif-technologies/motif-3",
+          "description": "",
+          "metadata": {
+            "name": "Motif Technologies: Motif 3",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -3272,6 +3294,17 @@
           }
         },
         {
+          "id": "particle-ai/particle-1:free",
+          "description": "free",
+          "metadata": {
+            "name": "Particle AI: Particle-1 (free)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "perceptron/perceptron-mk1.5",
           "description": "",
           "metadata": {
@@ -3541,8 +3574,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-9B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.135,
-            "completion_per_mtok": 0.198,
+            "prompt_per_mtok": 0.027,
+            "completion_per_mtok": 0.04,
             "curated_upstream": false
           }
         },
@@ -3783,8 +3816,8 @@
           "metadata": {
             "name": "Ricursive: Ripple 65B Preview",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -3873,6 +3906,17 @@
             "context_length": 524288,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 4.05,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling-2-small",
+          "description": "",
+          "metadata": {
+            "name": "Thinking Machines: Inkling 2 Small",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -4201,8 +4245,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.322,
-            "completion_per_mtok": 0.989,
+            "prompt_per_mtok": 0.45,
+            "completion_per_mtok": 2.0,
             "curated_upstream": false
           }
         },
@@ -4267,8 +4311,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.022,
-            "completion_per_mtok": 0.4,
+            "prompt_per_mtok": 0.038,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -4300,8 +4344,8 @@
           "metadata": {
             "name": "Google: Gemini Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.75,
-            "completion_per_mtok": 3.75,
+            "prompt_per_mtok": 1.5,
+            "completion_per_mtok": 7.5,
             "curated_upstream": false
           }
         },
