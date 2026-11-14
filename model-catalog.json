@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T13:10:16Z",
+  "updated_at": "2026-11-14T12:15:32Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 405
+        "count": 407
       },
       "models": [
         {
@@ -1143,8 +1143,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V3",
             "context_length": 163840,
-            "prompt_per_mtok": 0.32,
-            "completion_per_mtok": 0.89,
+            "prompt_per_mtok": 0.2574,
+            "completion_per_mtok": 1.0287,
             "curated_upstream": false
           }
         },
@@ -1244,6 +1244,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.44,
             "completion_per_mtok": 1.32,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+          "description": "",
+          "metadata": {
+            "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.15,
             "curated_upstream": false
           }
         },
@@ -1605,8 +1616,8 @@
           "metadata": {
             "name": "Google: Gemma 4 26B A4B ",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.0675,
+            "completion_per_mtok": 0.225,
             "curated_upstream": false
           }
         },
@@ -1695,6 +1706,17 @@
             "context_length": 1000000,
             "prompt_per_mtok": 0.045,
             "completion_per_mtok": 0.135,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.2-flash:free",
+          "description": "free",
+          "metadata": {
+            "name": "inclusionAI: Ling 3.2 Flash (free)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.0,
+            "completion_per_mtok": 0.0,
             "curated_upstream": false
           }
         },
@@ -2881,8 +2903,8 @@
           "metadata": {
             "name": "OpenAI: GPT-5.6 Sol",
             "context_length": 1050000,
-            "prompt_per_mtok": 4.4,
-            "completion_per_mtok": 22.0,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
             "curated_upstream": false
           }
         },
@@ -3574,8 +3596,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-9B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.027,
-            "completion_per_mtok": 0.04,
+            "prompt_per_mtok": 0.17,
+            "completion_per_mtok": 0.25,
             "curated_upstream": false
           }
         },
@@ -3716,7 +3738,7 @@
           "description": "",
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
-            "context_length": 1048575,
+            "context_length": 1024000,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 1.875,
             "curated_upstream": false
