@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T12:15:32Z",
+  "updated_at": "2026-11-15T12:47:45Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 407
+        "count": 406
       },
       "models": [
         {
@@ -361,8 +361,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.038,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": true
           }
         },
@@ -1253,8 +1253,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.15,
+            "prompt_per_mtok": 0.038,
+            "completion_per_mtok": 0.333,
             "curated_upstream": false
           }
         },
@@ -2232,8 +2232,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K3.1 Pro",
             "context_length": 1048576,
-            "prompt_per_mtok": 2.0,
-            "completion_per_mtok": 10.0,
+            "prompt_per_mtok": 0.2403,
+            "completion_per_mtok": 8.4023,
             "curated_upstream": false
           }
         },
@@ -2332,7 +2332,7 @@
             "name": "NVIDIA: Nemotron 3.5 Super VL",
             "context_length": 1048576,
             "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.47,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -2903,8 +2903,8 @@
           "metadata": {
             "name": "OpenAI: GPT-5.6 Sol",
             "context_length": 1050000,
-            "prompt_per_mtok": 4.0,
-            "completion_per_mtok": 20.0,
+            "prompt_per_mtok": 4.4,
+            "completion_per_mtok": 22.0,
             "curated_upstream": false
           }
         },
@@ -3310,7 +3310,7 @@
           "metadata": {
             "name": "Particle AI: Particle-1",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
+            "prompt_per_mtok": 0.06,
             "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
@@ -3596,8 +3596,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-9B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.17,
-            "completion_per_mtok": 0.25,
+            "prompt_per_mtok": 0.022,
+            "completion_per_mtok": 0.032,
             "curated_upstream": false
           }
         },
@@ -4168,8 +4168,8 @@
           "metadata": {
             "name": "Z.ai: GLM 4.7",
             "context_length": 204800,
-            "prompt_per_mtok": 0.6,
-            "completion_per_mtok": 2.2,
+            "prompt_per_mtok": 0.4,
+            "completion_per_mtok": 1.75,
             "curated_upstream": false
           }
         },
@@ -4218,17 +4218,6 @@
           }
         },
         {
-          "id": "z-ai/glm-5.2:batch",
-          "description": "",
-          "metadata": {
-            "name": "Z.ai: GLM 5.2 (batch)",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.322,
-            "completion_per_mtok": 0.989,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "z-ai/glm-5.3-flash:batch",
           "description": "",
           "metadata": {
@@ -4267,8 +4256,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.45,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.386,
+            "completion_per_mtok": 1.187,
             "curated_upstream": false
           }
         },
@@ -4333,8 +4322,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.038,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.02,
+            "completion_per_mtok": 0.108,
             "curated_upstream": false
           }
         },
