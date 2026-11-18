@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T14:31:23Z",
+  "updated_at": "2026-11-18T14:07:34Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 407
+        "count": 415
       },
       "models": [
         {
@@ -350,8 +350,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.3,
-            "completion_per_mtok": 1.2,
+            "prompt_per_mtok": 0.0507,
+            "completion_per_mtok": 0.2028,
             "curated_upstream": true
           }
         },
@@ -504,9 +504,9 @@
           "description": "",
           "metadata": {
             "name": "Xiaomi: MiMo-V2.5-Pro",
-            "context_length": 1024000,
-            "prompt_per_mtok": 0.435,
-            "completion_per_mtok": 0.87,
+            "context_length": 262144,
+            "prompt_per_mtok": 0.48,
+            "completion_per_mtok": 1.8,
             "curated_upstream": true
           }
         },
@@ -1176,8 +1176,8 @@
           "metadata": {
             "name": "DeepSeek: R1 0528",
             "context_length": 163840,
-            "prompt_per_mtok": 0.5,
-            "completion_per_mtok": 2.15,
+            "prompt_per_mtok": 0.571,
+            "completion_per_mtok": 2.286,
             "curated_upstream": false
           }
         },
@@ -1606,7 +1606,7 @@
             "name": "Google: Gemma 3 27B",
             "context_length": 131072,
             "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.35,
+            "completion_per_mtok": 0.45,
             "curated_upstream": false
           }
         },
@@ -2045,8 +2045,8 @@
           "metadata": {
             "name": "Mistral: Mistral Medium 3",
             "context_length": 131072,
-            "prompt_per_mtok": 0.4,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.44,
+            "completion_per_mtok": 2.2,
             "curated_upstream": false
           }
         },
@@ -2078,8 +2078,8 @@
           "metadata": {
             "name": "Mistral: Mistral Medium 3.1",
             "context_length": 131072,
-            "prompt_per_mtok": 0.4,
-            "completion_per_mtok": 2.0,
+            "prompt_per_mtok": 0.44,
+            "completion_per_mtok": 2.2,
             "curated_upstream": false
           }
         },
@@ -2133,8 +2133,8 @@
           "metadata": {
             "name": "Mistral: Mistral Small 3.2 24B",
             "context_length": 256000,
-            "prompt_per_mtok": 0.1,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.2,
             "curated_upstream": false
           }
         },
@@ -3118,6 +3118,94 @@
           }
         },
         {
+          "id": "openai/gpt-6.2-astra",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Astra",
+            "context_length": 1050000,
+            "prompt_per_mtok": 8.0,
+            "completion_per_mtok": 40.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-astra-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Astra Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 8.0,
+            "completion_per_mtok": 40.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-astra-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-astra:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Astra (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 4.0,
+            "completion_per_mtok": 20.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-sol",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Sol",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-sol-pro",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Sol Pro",
+            "context_length": 1050000,
+            "prompt_per_mtok": 2.0,
+            "completion_per_mtok": 10.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-sol-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "openai/gpt-6.2-sol:batch",
+          "description": "",
+          "metadata": {
+            "name": "OpenAI: GPT-6.2 Sol (batch)",
+            "context_length": 1050000,
+            "prompt_per_mtok": 1.0,
+            "completion_per_mtok": 5.0,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "openai/gpt-audio",
           "description": "",
           "metadata": {
@@ -3497,7 +3585,7 @@
           "metadata": {
             "name": "Qwen: Qwen3 Next 80B A3B Instruct",
             "context_length": 262144,
-            "prompt_per_mtok": 0.09,
+            "prompt_per_mtok": 0.1,
             "completion_per_mtok": 1.1,
             "curated_upstream": false
           }
@@ -3552,8 +3640,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-27B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.26,
-            "completion_per_mtok": 2.6,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 2.4,
             "curated_upstream": false
           }
         },
@@ -3728,8 +3816,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
             "context_length": 1024000,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 1.875,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 2.2,
             "curated_upstream": false
           }
         },
@@ -4399,8 +4487,8 @@
           "metadata": {
             "name": "OpenAI: GPT Astra Latest",
             "context_length": 1050000,
-            "prompt_per_mtok": 10.0,
-            "completion_per_mtok": 50.0,
+            "prompt_per_mtok": 8.0,
+            "completion_per_mtok": 40.0,
             "curated_upstream": false
           }
         },
