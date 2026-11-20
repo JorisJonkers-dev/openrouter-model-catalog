@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T14:28:54Z",
+  "updated_at": "2026-11-20T14:05:06Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 416
+        "count": 415
       },
       "models": [
         {
@@ -348,7 +348,7 @@
           "id": "x-ai/grok-4.7",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.7",
+            "name": "SpaceXSI: Grok 4.7",
             "context_length": 500000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 6.0,
@@ -359,7 +359,7 @@
           "id": "x-ai/grok-4.6",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.6",
+            "name": "SpaceXSI: Grok 4.6",
             "context_length": 500000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 6.0,
@@ -383,8 +383,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0813",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.111,
-            "completion_per_mtok": 4.44,
+            "prompt_per_mtok": 1.32,
+            "completion_per_mtok": 3.96,
             "curated_upstream": true
           }
         },
@@ -416,7 +416,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash 0731",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.062,
+            "prompt_per_mtok": 0.0443,
             "completion_per_mtok": 0.3,
             "curated_upstream": true
           }
@@ -483,8 +483,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.0399,
+            "completion_per_mtok": 0.0784,
             "curated_upstream": true
           }
         },
@@ -1171,17 +1171,6 @@
           }
         },
         {
-          "id": "cohere/north-mini-code:free",
-          "description": "free",
-          "metadata": {
-            "name": "Cohere: North Mini Code (free)",
-            "context_length": 256000,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "deepseek/deepseek-chat",
           "description": "",
           "metadata": {
@@ -1297,8 +1286,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.036,
-            "completion_per_mtok": 0.15,
+            "prompt_per_mtok": 0.035,
+            "completion_per_mtok": 0.149,
             "curated_upstream": false
           }
         },
@@ -1308,8 +1297,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.112,
-            "completion_per_mtok": 0.336,
+            "prompt_per_mtok": 0.05,
+            "completion_per_mtok": 0.15,
             "curated_upstream": false
           }
         },
@@ -1770,8 +1759,8 @@
           "metadata": {
             "name": "inclusionAI: Ling 3.1 Flash",
             "context_length": 1000000,
-            "prompt_per_mtok": 0.045,
-            "completion_per_mtok": 0.135,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.18,
             "curated_upstream": false
           }
         },
@@ -2287,8 +2276,8 @@
           "metadata": {
             "name": "MoonshotAI: Kimi K2.7 Code",
             "context_length": 262144,
-            "prompt_per_mtok": 0.65,
-            "completion_per_mtok": 3.5,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 3.0,
             "curated_upstream": false
           }
         },
@@ -2300,6 +2289,17 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.253,
             "completion_per_mtok": 8.8,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k3.1-pro:batch",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.372,
+            "completion_per_mtok": 5.583,
             "curated_upstream": false
           }
         },
@@ -3266,8 +3266,8 @@
           "metadata": {
             "name": "OpenAI: gpt-oss-120b",
             "context_length": 131072,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.6,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.36,
             "curated_upstream": false
           }
         },
@@ -3420,7 +3420,7 @@
           "metadata": {
             "name": "Particle AI: Particle-1",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.06,
+            "prompt_per_mtok": 0.07,
             "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
@@ -3839,7 +3839,7 @@
             "name": "Qwen: Qwen3.8 27B",
             "context_length": 1024000,
             "prompt_per_mtok": 0.06,
-            "completion_per_mtok": 2.2,
+            "completion_per_mtok": 1.96,
             "curated_upstream": false
           }
         },
@@ -4122,7 +4122,7 @@
           "id": "x-ai/grok-4.20",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.20",
+            "name": "SpaceXSI: Grok 4.20",
             "context_length": 2000000,
             "prompt_per_mtok": 1.25,
             "completion_per_mtok": 2.5,
@@ -4133,7 +4133,7 @@
           "id": "x-ai/grok-4.3",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.3",
+            "name": "SpaceXSI: Grok 4.3",
             "context_length": 1000000,
             "prompt_per_mtok": 1.25,
             "completion_per_mtok": 2.5,
@@ -4144,7 +4144,7 @@
           "id": "x-ai/grok-4.3:batch",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.3 (batch)",
+            "name": "SpaceXSI: Grok 4.3 (batch)",
             "context_length": 1000000,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 2.0,
@@ -4155,7 +4155,7 @@
           "id": "x-ai/grok-4.5",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.5",
+            "name": "SpaceXSI: Grok 4.5",
             "context_length": 500000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 6.0,
@@ -4166,7 +4166,7 @@
           "id": "x-ai/grok-4.6:batch",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.6 (batch)",
+            "name": "SpaceXSI: Grok 4.6 (batch)",
             "context_length": 500000,
             "prompt_per_mtok": 1.6,
             "completion_per_mtok": 4.8,
@@ -4177,21 +4177,10 @@
           "id": "x-ai/grok-4.7:batch",
           "description": "",
           "metadata": {
-            "name": "SpaceXAI: Grok 4.7 (batch)",
+            "name": "SpaceXSI: Grok 4.7 (batch)",
             "context_length": 500000,
             "prompt_per_mtok": 1.6,
             "completion_per_mtok": 4.8,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "x-ai/grok-build-0.1",
-          "description": "",
-          "metadata": {
-            "name": "SpaceXAI: Grok Build 0.1",
-            "context_length": 256000,
-            "prompt_per_mtok": 1.0,
-            "completion_per_mtok": 2.0,
             "curated_upstream": false
           }
         },
@@ -4333,8 +4322,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.024,
-            "completion_per_mtok": 0.069,
+            "prompt_per_mtok": 0.023,
+            "completion_per_mtok": 0.068,
             "curated_upstream": false
           }
         },
@@ -4366,8 +4355,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 (batch)",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.281,
-            "completion_per_mtok": 1.25,
+            "prompt_per_mtok": 0.28,
+            "completion_per_mtok": 1.249,
             "curated_upstream": false
           }
         },
@@ -4432,8 +4421,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.035,
-            "completion_per_mtok": 0.15,
+            "prompt_per_mtok": 0.036,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
@@ -4443,7 +4432,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0999,
+            "prompt_per_mtok": 0.2066,
             "completion_per_mtok": 8.0,
             "curated_upstream": false
           }
@@ -4454,8 +4443,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0466,
-            "completion_per_mtok": 0.1399,
+            "prompt_per_mtok": 0.044,
+            "completion_per_mtok": 0.132,
             "curated_upstream": false
           }
         },
@@ -4487,7 +4476,7 @@
           "metadata": {
             "name": "MoonshotAI: Kimi Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.1824,
+            "prompt_per_mtok": 0.1805,
             "completion_per_mtok": 11.0055,
             "curated_upstream": false
           }
