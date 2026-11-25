@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T15:56:49Z",
+  "updated_at": "2026-11-25T15:41:35Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 411
+        "count": 410
       },
       "models": [
         {
@@ -405,8 +405,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 1.28,
-            "completion_per_mtok": 2.56,
+            "prompt_per_mtok": 0.7876,
+            "completion_per_mtok": 1.5629,
             "curated_upstream": true
           }
         },
@@ -438,8 +438,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.03,
-            "completion_per_mtok": 0.2,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.6,
             "curated_upstream": true
           }
         },
@@ -516,8 +516,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.15,
-            "completion_per_mtok": 0.5,
+            "prompt_per_mtok": 0.12,
+            "completion_per_mtok": 0.38,
             "curated_upstream": true
           }
         },
@@ -1297,8 +1297,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.2156,
-            "completion_per_mtok": 0.6468,
+            "prompt_per_mtok": 0.44,
+            "completion_per_mtok": 1.32,
             "curated_upstream": false
           }
         },
@@ -1321,17 +1321,6 @@
             "context_length": 1048576,
             "prompt_per_mtok": 0.05,
             "completion_per_mtok": 0.15,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "dots-studio/dots-3-note-preview:free",
-          "description": "free",
-          "metadata": {
-            "name": "Dots Studio: Dots3-Note Preview (free)",
-            "context_length": 512000,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
             "curated_upstream": false
           }
         },
@@ -1934,9 +1923,9 @@
           "description": "",
           "metadata": {
             "name": "MiniMax: MiniMax M2.5",
-            "context_length": 198000,
-            "prompt_per_mtok": 0.27,
-            "completion_per_mtok": 0.95,
+            "context_length": 65536,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -2073,17 +2062,6 @@
           }
         },
         {
-          "id": "mistralai/mistral-medium-3",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Mistral Medium 3",
-            "context_length": 131072,
-            "prompt_per_mtok": 0.44,
-            "completion_per_mtok": 2.2,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "mistralai/mistral-medium-3-5",
           "description": "",
           "metadata": {
@@ -2102,17 +2080,6 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.75,
             "completion_per_mtok": 3.75,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "mistralai/mistral-medium-3.1",
-          "description": "",
-          "metadata": {
-            "name": "Mistral: Mistral Medium 3.1",
-            "context_length": 131072,
-            "prompt_per_mtok": 0.44,
-            "completion_per_mtok": 2.2,
             "curated_upstream": false
           }
         },
@@ -2331,7 +2298,7 @@
           "metadata": {
             "name": "NVIDIA: Nemotron 3.5 Lightning",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.05,
+            "prompt_per_mtok": 0.07,
             "completion_per_mtok": 0.2,
             "curated_upstream": false
           }
@@ -3695,8 +3662,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.6 35B A3B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.05,
-            "completion_per_mtok": 0.7,
+            "prompt_per_mtok": 0.1,
+            "completion_per_mtok": 0.89,
             "curated_upstream": false
           }
         },
@@ -4075,6 +4042,28 @@
           }
         },
         {
+          "id": "upstage/solar-mini-4-5",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Mini 4.5 (Preview)",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.01,
+            "completion_per_mtok": 0.04,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "upstage/solar-pro-4-contributor",
+          "description": "",
+          "metadata": {
+            "name": "Upstage: Solar Pro 4 Contributor",
+            "context_length": 524288,
+            "prompt_per_mtok": 0.09,
+            "completion_per_mtok": 0.36,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "x-ai/grok-4.20",
           "description": "",
           "metadata": {
@@ -4141,13 +4130,13 @@
           }
         },
         {
-          "id": "xiaomi/mimo-v2.5",
+          "id": "xiaomi/mimo-v2.6-flash-mopd",
           "description": "",
           "metadata": {
-            "name": "Xiaomi: MiMo-V2.5",
-            "context_length": 1000000,
-            "prompt_per_mtok": 0.4,
-            "completion_per_mtok": 2.0,
+            "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+            "context_length": 1048576,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
         },
@@ -4168,8 +4157,8 @@
           "metadata": {
             "name": "Z.ai: GLM 4.5 Air",
             "context_length": 131072,
-            "prompt_per_mtok": 0.13,
-            "completion_per_mtok": 0.85,
+            "prompt_per_mtok": 0.14,
+            "completion_per_mtok": 0.86,
             "curated_upstream": false
           }
         },
@@ -4222,7 +4211,7 @@
           "description": "",
           "metadata": {
             "name": "Z.ai: GLM 4.7 Flash",
-            "context_length": 200000,
+            "context_length": 131072,
             "prompt_per_mtok": 0.0605,
             "completion_per_mtok": 0.4,
             "curated_upstream": false
@@ -4377,8 +4366,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Flash Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.03,
-            "completion_per_mtok": 0.2,
+            "prompt_per_mtok": 0.036,
+            "completion_per_mtok": 0.5,
             "curated_upstream": false
           }
         },
