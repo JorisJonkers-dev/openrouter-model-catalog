@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T15:41:35Z",
+  "updated_at": "2026-11-26T15:23:07Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -405,8 +405,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.7876,
-            "completion_per_mtok": 1.5629,
+            "prompt_per_mtok": 0.835,
+            "completion_per_mtok": 1.5381,
             "curated_upstream": true
           }
         },
@@ -516,8 +516,8 @@
           "metadata": {
             "name": "Z.ai: GLM 5.3 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.12,
-            "completion_per_mtok": 0.38,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.5,
             "curated_upstream": true
           }
         },
@@ -1639,7 +1639,7 @@
             "name": "Google: Gemma 3 27B",
             "context_length": 131072,
             "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.16,
+            "completion_per_mtok": 0.45,
             "curated_upstream": false
           }
         },
@@ -1974,6 +1974,17 @@
           }
         },
         {
+          "id": "mistralai/codestral-2508:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Codestral 2508 (batch)",
+            "context_length": 256000,
+            "prompt_per_mtok": 0.15,
+            "completion_per_mtok": 0.45,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "mistralai/devstral-2512",
           "description": "",
           "metadata": {
@@ -2018,6 +2029,17 @@
           }
         },
         {
+          "id": "mistralai/ministral-8b-2512:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Ministral 3 8B 2512 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.075,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "mistralai/mistral-large",
           "description": "",
           "metadata": {
@@ -2047,6 +2069,17 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.5,
             "completion_per_mtok": 1.5,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-large-2512:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Large 3 2512 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.25,
+            "completion_per_mtok": 0.75,
             "curated_upstream": false
           }
         },
@@ -2113,6 +2146,17 @@
             "context_length": 262144,
             "prompt_per_mtok": 0.15,
             "completion_per_mtok": 0.6,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "mistralai/mistral-small-2603:batch",
+          "description": "",
+          "metadata": {
+            "name": "Mistral: Mistral Small 4 (batch)",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.075,
+            "completion_per_mtok": 0.3,
             "curated_upstream": false
           }
         },
@@ -3596,8 +3640,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.5 397B A17B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.45,
-            "completion_per_mtok": 3.0,
+            "prompt_per_mtok": 0.5,
+            "completion_per_mtok": 3.6,
             "curated_upstream": false
           }
         },
@@ -3607,7 +3651,7 @@
           "metadata": {
             "name": "Qwen: Qwen3.5-9B",
             "context_length": 262144,
-            "prompt_per_mtok": 0.17,
+            "prompt_per_mtok": 0.1,
             "completion_per_mtok": 0.25,
             "curated_upstream": false
           }
@@ -3750,8 +3794,8 @@
           "metadata": {
             "name": "Qwen: Qwen3.8 27B",
             "context_length": 1024000,
-            "prompt_per_mtok": 0.035,
-            "completion_per_mtok": 1.5,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 1.96,
             "curated_upstream": false
           }
         },
@@ -3838,7 +3882,7 @@
           "metadata": {
             "name": "Reflection: Beam 1.0 501B A23B",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.25,
+            "prompt_per_mtok": 0.3,
             "completion_per_mtok": 1.0,
             "curated_upstream": false
           }
@@ -4009,39 +4053,6 @@
           }
         },
         {
-          "id": "unbiased/pareto-26.10",
-          "description": "",
-          "metadata": {
-            "name": "Pareto 26.10",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.8,
-            "completion_per_mtok": 3.2,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "unbiased/pareto-26.10-preview",
-          "description": "",
-          "metadata": {
-            "name": "Pareto 26.10 Preview",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.8,
-            "completion_per_mtok": 3.2,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "unbiased/pareto-26.9",
-          "description": "",
-          "metadata": {
-            "name": "Pareto 26.9",
-            "context_length": 262144,
-            "prompt_per_mtok": 2.5,
-            "completion_per_mtok": 7.5,
-            "curated_upstream": false
-          }
-        },
-        {
           "id": "upstage/solar-mini-4-5",
           "description": "",
           "metadata": {
@@ -4157,8 +4168,8 @@
           "metadata": {
             "name": "Z.ai: GLM 4.5 Air",
             "context_length": 131072,
-            "prompt_per_mtok": 0.14,
-            "completion_per_mtok": 0.86,
+            "prompt_per_mtok": 0.2,
+            "completion_per_mtok": 1.1,
             "curated_upstream": false
           }
         },
@@ -4377,8 +4388,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0999,
-            "completion_per_mtok": 5.0,
+            "prompt_per_mtok": 0.111,
+            "completion_per_mtok": 4.44,
             "curated_upstream": false
           }
         },
@@ -4478,17 +4489,6 @@
             "context_length": 1050000,
             "prompt_per_mtok": 1.0,
             "completion_per_mtok": 5.0,
-            "curated_upstream": false
-          }
-        },
-        {
-          "id": "~unbiased/pareto-latest",
-          "description": "",
-          "metadata": {
-            "name": "Pareto Latest",
-            "context_length": 1048576,
-            "prompt_per_mtok": 0.8,
-            "completion_per_mtok": 3.2,
             "curated_upstream": false
           }
         },
