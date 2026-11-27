@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-26T15:23:07Z",
+  "updated_at": "2026-11-27T15:11:29Z",
   "metadata": {
     "generated_from": "https://openrouter.ai/api/v1/models",
     "curated_order_from": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/api/model-catalog.json",
@@ -11,7 +11,7 @@
     "openrouter": {
       "metadata": {
         "scope": "full",
-        "count": 410
+        "count": 413
       },
       "models": [
         {
@@ -405,7 +405,7 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.835,
+            "prompt_per_mtok": 0.7975,
             "completion_per_mtok": 1.5381,
             "curated_upstream": true
           }
@@ -416,8 +416,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Pro 0813",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.111,
-            "completion_per_mtok": 4.44,
+            "prompt_per_mtok": 0.0999,
+            "completion_per_mtok": 5.0,
             "curated_upstream": true
           }
         },
@@ -1297,8 +1297,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.44,
-            "completion_per_mtok": 1.32,
+            "prompt_per_mtok": 0.2156,
+            "completion_per_mtok": 0.6468,
             "curated_upstream": false
           }
         },
@@ -1639,7 +1639,7 @@
             "name": "Google: Gemma 3 27B",
             "context_length": 131072,
             "prompt_per_mtok": 0.08,
-            "completion_per_mtok": 0.45,
+            "completion_per_mtok": 0.16,
             "curated_upstream": false
           }
         },
@@ -1743,13 +1743,24 @@
           }
         },
         {
-          "id": "inclusionai/ling-3.2-flash:free",
-          "description": "free",
+          "id": "inclusionai/ling-3.2-flash",
+          "description": "",
           "metadata": {
-            "name": "inclusionAI: Ling 3.2 Flash (free)",
+            "name": "inclusionAI: Ling 3.2 Flash",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.0,
-            "completion_per_mtok": 0.0,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 0.9,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "inclusionai/lingsante-3.1-air-vl",
+          "description": "",
+          "metadata": {
+            "name": "inclusionAI: LingSante 3.1 Air VL",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.18,
             "curated_upstream": false
           }
         },
@@ -1825,8 +1836,8 @@
           "metadata": {
             "name": "Meta: Llama 3.3 70B Instruct",
             "context_length": 131072,
-            "prompt_per_mtok": 0.71,
-            "completion_per_mtok": 0.71,
+            "prompt_per_mtok": 0.59,
+            "completion_per_mtok": 0.79,
             "curated_upstream": false
           }
         },
@@ -1869,8 +1880,8 @@
           "metadata": {
             "name": "Meta: Muse Glimmer 30B",
             "context_length": 131072,
-            "prompt_per_mtok": 0.35,
-            "completion_per_mtok": 1.5,
+            "prompt_per_mtok": 0.3,
+            "completion_per_mtok": 1.2,
             "curated_upstream": false
           }
         },
@@ -2205,13 +2216,35 @@
           }
         },
         {
+          "id": "moonshotai/kimi-k2",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2 0711",
+            "context_length": 131072,
+            "prompt_per_mtok": 0.57,
+            "completion_per_mtok": 2.3,
+            "curated_upstream": false
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k2-0905",
+          "description": "",
+          "metadata": {
+            "name": "MoonshotAI: Kimi K2 0905",
+            "context_length": 262144,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 2.5,
+            "curated_upstream": false
+          }
+        },
+        {
           "id": "moonshotai/kimi-k2.5",
           "description": "",
           "metadata": {
             "name": "MoonshotAI: Kimi K2.5",
             "context_length": 262144,
-            "prompt_per_mtok": 0.5,
-            "completion_per_mtok": 2.5,
+            "prompt_per_mtok": 0.6,
+            "completion_per_mtok": 3.0,
             "curated_upstream": false
           }
         },
@@ -3782,7 +3815,7 @@
           "description": "",
           "metadata": {
             "name": "Qwen: Qwen3.8 2.4T A95B",
-            "context_length": 1048576,
+            "context_length": 1000000,
             "prompt_per_mtok": 2.0,
             "completion_per_mtok": 6.0,
             "curated_upstream": false
@@ -4003,8 +4036,8 @@
           "metadata": {
             "name": "Thinking Machines: Inkling 2 Mini",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.075,
-            "completion_per_mtok": 0.3,
+            "prompt_per_mtok": 0.06,
+            "completion_per_mtok": 0.24,
             "curated_upstream": false
           }
         },
@@ -4189,7 +4222,7 @@
           "description": "",
           "metadata": {
             "name": "Z.ai: GLM 4.6",
-            "context_length": 204800,
+            "context_length": 202752,
             "prompt_per_mtok": 0.5,
             "completion_per_mtok": 2.0,
             "curated_upstream": false
@@ -4388,8 +4421,8 @@
           "metadata": {
             "name": "DeepSeek: DeepSeek Pro Latest",
             "context_length": 1048576,
-            "prompt_per_mtok": 0.111,
-            "completion_per_mtok": 4.44,
+            "prompt_per_mtok": 0.0999,
+            "completion_per_mtok": 5.0,
             "curated_upstream": false
           }
         },
